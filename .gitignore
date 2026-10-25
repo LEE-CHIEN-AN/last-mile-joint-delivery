@@ -1,0 +1,16 @@
+# 課程原始資料(組員各自從課程下載,不進版控)
+delivery_plan/
+gps_traces/
+vehicle_can_telematics/
+tms_delivery_records/
+store_master/
+
+# 另外取得的資料(不外流)
+delivery_plan_other_depots/
+delivery_plan_other_depots.zip
+vehicle_class_by_V.csv
+
+# 系統與暫存檔
+desktop.ini
+__pycache__/
+.ipynb_checkpoints/

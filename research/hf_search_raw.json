@@ -1,0 +1,2049 @@
+{
+ "vincewin/CREST_fleet": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 76667,
+  "likes": 1
+ },
+ "csoai/fleet-status": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 9363,
+  "likes": 0
+ },
+ "Azzindani/ID_Legal_QA_SynDeepThink": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 4569,
+  "likes": 1
+ },
+ "nhuduong22742/freight": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 2931,
+  "likes": 0
+ },
+ "kienho44652/telematics": {
+  "terms": [
+   "telematics"
+  ],
+  "downloads": 2755,
+  "likes": 0
+ },
+ "imageomics/IDLE-OO-Camera-Traps": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 2366,
+  "likes": 2
+ },
+ "idle-intelligence/ridgeline-terrain": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 2359,
+  "likes": 0
+ },
+ "Azzindani/ID_Legal_QA_SynThink": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 2339,
+  "likes": 1
+ },
+ "juliensimon/starlink-fleet-data": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 791,
+  "likes": 0
+ },
+ "juliensimon/ast-spacemobile-fleet-data": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 603,
+  "likes": 1
+ },
+ "csoai/signed-fleet-boards-v2": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 572,
+  "likes": 0
+ },
+ "juliensimon/oneweb-fleet-data": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 486,
+  "likes": 1
+ },
+ "juliensimon/globalstar-fleet-data": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 465,
+  "likes": 0
+ },
+ "juliensimon/kuiper-fleet-data": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 459,
+  "likes": 0
+ },
+ "ngando49081/telematics": {
+  "terms": [
+   "telematics"
+  ],
+  "downloads": 452,
+  "likes": 0
+ },
+ "csoai/gspc-fleet": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 405,
+  "likes": 0
+ },
+ "FleetAI/trajectories-thinking-tools": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 351,
+  "likes": 0
+ },
+ "miminmoons/olist-ecommerce-for-delivery-and-review-prediction": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 348,
+  "likes": 3
+ },
+ "foreverCuSO4/transfer-bench-trajectories-20260901-fleet256": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 309,
+  "likes": 0
+ },
+ "FleetAI/trajectories-thinking": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 288,
+  "likes": 0
+ },
+ "SergioSCA/Logistics_v2_yolov8": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 262,
+  "likes": 2
+ },
+ "huihanl/sirius-fleet-mutex": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 212,
+  "likes": 0
+ },
+ "anvo42292/telematics": {
+  "terms": [
+   "telematics"
+  ],
+  "downloads": 193,
+  "likes": 0
+ },
+ "Azzindani/ID_Legal_QA_Syn": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 192,
+  "likes": 1
+ },
+ "dennisjcoleman974/freight": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 152,
+  "likes": 0
+ },
+ "OpenGraphLabs-Research/lerobot-simulation-burger-delivery-01": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 147,
+  "likes": 0
+ },
+ "FleetAI/fleet-cu-trajectories": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 140,
+  "likes": 0
+ },
+ "NifferLi/Cold-Chain-Transportation-Strawberry": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 138,
+  "likes": 1
+ },
+ "Nicholastempleman/fleet-locks": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 131,
+  "likes": 0
+ },
+ "Azzindani/ID_Legal_Bench": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 128,
+  "likes": 1
+ },
+ "idleengine/bankertoolbench": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 122,
+  "likes": 0
+ },
+ "Ichlibitiche/mechanicdb-obd2-repair-sample": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 120,
+  "likes": 0
+ },
+ "BAAI-DataCube/AgiBotWorld-Beta_G1_task_595_Delivery_menu": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 120,
+  "likes": 0
+ },
+ "OpenGraphLabs-Research/lerobot-simulation-aloha-dual-burger-delivery-01": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 114,
+  "likes": 0
+ },
+ "idleengine/big-finance-benchmark": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 112,
+  "likes": 0
+ },
+ "akumalondon/Rail_Freight_Logistics_Company_Email_Archive_Sample": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 108,
+  "likes": 0
+ },
+ "ZanderL1337/freight-rail-data-pipeline": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 104,
+  "likes": 0
+ },
+ "pohsjxx/drone-logistics-dataset": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 103,
+  "likes": 0
+ },
+ "THULab/globalstar_fleet_data": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 102,
+  "likes": 0
+ },
+ "idleengine/pit-earnings-call-qa": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 100,
+  "likes": 0
+ },
+ "emgena/emgena_robotics_can_bus_telemetry_guard_mcp_teaser": {
+  "terms": [
+   "CAN bus"
+  ],
+  "downloads": 93,
+  "likes": 0
+ },
+ "THULab/kuiper_fleet_data": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 86,
+  "likes": 0
+ },
+ "mindweave/vehicle-fleet-management": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 80,
+  "likes": 0
+ },
+ "ijlewis/Food_Delivery_App_Screen_Recording_Dataset": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 75,
+  "likes": 0
+ },
+ "idleengine/FrontierFinance": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 72,
+  "likes": 0
+ },
+ "FleetAI/trajectories-tool_use-difficult-envs-splits": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 71,
+  "likes": 0
+ },
+ "NifferLi/cold-chain-strawberry-sensors": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 64,
+  "likes": 0
+ },
+ "idleengine/sp500_earnings_transcripts": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 63,
+  "likes": 0
+ },
+ "yananchen/genesis_pick_cube_vr_delta_filter_idle": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 61,
+  "likes": 0
+ },
+ "plainfreight/china-usa-freight-price-index": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 61,
+  "likes": 0
+ },
+ "idleengine/Fin-RATE": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 58,
+  "likes": 0
+ },
+ "taha1418/Cricket_Delivery_Videos": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 57,
+  "likes": 0
+ },
+ "datly87792/freight": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 57,
+  "likes": 0
+ },
+ "THULab/ast_spacemobile_fleet_data": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 56,
+  "likes": 0
+ },
+ "yhqu/crispr_delivery": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 56,
+  "likes": 0
+ },
+ "dsfox/worlds-largest-inland-freight-hubs": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 56,
+  "likes": 0
+ },
+ "ahmedj-turing/fleet_operation": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 54,
+  "likes": 0
+ },
+ "Faneissa92/vehicle-fleet-management": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 54,
+  "likes": 0
+ },
+ "electricsheepafrica/vaccine-cold-chain": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 52,
+  "likes": 0
+ },
+ "FleetAI/trajectories-thinking-tools-tool_use-difficult-envs-raw": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 51,
+  "likes": 0
+ },
+ "aneesarom/Food-Delivery": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 51,
+  "likes": 0
+ },
+ "PedroCuisinier2025/OBD2_panel_opel_2012": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 50,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_reverse_logistics": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 49,
+  "likes": 0
+ },
+ "mogoi/delivery_all": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 48,
+  "likes": 0
+ },
+ "FleetAI/trajectories-tool_use-difficult-envs-raw": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 46,
+  "likes": 0
+ },
+ "Idlebeing/Bert-sent": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 45,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-owid-air-transport-freight-ton-km": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 45,
+  "likes": 0
+ },
+ "yananchen/genesis_pick_cube_vr_abs_filter_idle": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 44,
+  "likes": 0
+ },
+ "Dongkkka/Task0013_clean_cafe_table_no_idle": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 44,
+  "likes": 0
+ },
+ "idleengine/FinanceComplexQA": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 44,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_freight_cost_pricing": {
+  "terms": [
+   "freight",
+   "logistics"
+  ],
+  "downloads": 44,
+  "likes": 0
+ },
+ "Professor29/Cold-Chain-Transportation-Strawberry": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 43,
+  "likes": 0
+ },
+ "FleetAI/trajectories_thinking-tool_use-difficult-envs-raw": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 42,
+  "likes": 0
+ },
+ "SimWorld-AI/DeliveryBench": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 42,
+  "likes": 2
+ },
+ "idleengine/diligence-bench": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 41,
+  "likes": 0
+ },
+ "electricsheepafrica/lastmile-distribution-transport": {
+  "terms": [
+   "last mile",
+   "last-mile"
+  ],
+  "downloads": 38,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_maintenance_logs": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 37,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_environmental_impact": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 36,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_port_shipping": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 36,
+  "likes": 0
+ },
+ "apurv4166/LastMileEvaluation": {
+  "terms": [
+   "last mile",
+   "last-mile"
+  ],
+  "downloads": 35,
+  "likes": 0
+ },
+ "pohsjxx/drone-logistics-cot-dataset": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 34,
+  "likes": 0
+ },
+ "Abhilashvj/deliveryman": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 33,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-synth-retail-and-ecommerce-last-mile-delivery-data-nigeria": {
+  "terms": [
+   "delivery",
+   "last mile",
+   "last-mile"
+  ],
+  "downloads": 32,
+  "likes": 0
+ },
+ "FleetAI/trajectories_thinking-tool_use-difficult-envs-splits": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 31,
+  "likes": 0
+ },
+ "FleetAI/trajectories-thinking-tools-tool_use-difficult-envs-splits": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 31,
+  "likes": 0
+ },
+ "jtlevine/lastmile-bench-inference": {
+  "terms": [
+   "last mile",
+   "last-mile"
+  ],
+  "downloads": 31,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_aircraft_maintenance": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 31,
+  "likes": 0
+ },
+ "aqxlogistics/germany-eu-customs-reform-freight-dataset-2026": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 31,
+  "likes": 0
+ },
+ "aqxlogistics/france-cdg-air-freight-ecommerce-dataset-2026": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 31,
+  "likes": 0
+ },
+ "aqxlogistics/uk-heathrow-hmrc-vat-freight-dataset-2026": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 31,
+  "likes": 0
+ },
+ "aqxlogistics/sweetwater-pro-audio-fragile-freight-dataset-2026": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 31,
+  "likes": 0
+ },
+ "CatQualia/fleet-toolforge": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 30,
+  "likes": 0
+ },
+ "jackvial/trim-idle-test-0": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 30,
+  "likes": 0
+ },
+ "Epitech/obd-codes-fine-tune": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 30,
+  "likes": 1
+ },
+ "aqxlogistics/us-to-global-freight-rates-benchmark-15-countries-2026": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 30,
+  "likes": 0
+ },
+ "aqxlogistics/us-to-uae-dubai-freight-rates-benchmark-2026": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 30,
+  "likes": 0
+ },
+ "electricsheepasia/asia-owid-co-emissions-per-capita-vs-fossil-fuel-consumption-per-capita": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 29,
+  "likes": 0
+ },
+ "aqxlogistics/us-to-australia-new-zealand-air-freight-benchmark": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 29,
+  "likes": 0
+ },
+ "aqxlogistics/new-zealand-border-levy-freight-rates-2026": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 29,
+  "likes": 0
+ },
+ "SanaullahTareen07/grab-safe-driver-telematics-cleaned-dataset": {
+  "terms": [
+   "telematics"
+  ],
+  "downloads": 28,
+  "likes": 0
+ },
+ "finofin/uk-remittance-last-mile-tax-2026": {
+  "terms": [
+   "last mile",
+   "last-mile"
+  ],
+  "downloads": 28,
+  "likes": 0
+ },
+ "kanchanaa/vaccine-cold-chain": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 27,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-synth-retail-and-ecommerce-supply-chain-logistics-data-nigeria": {
+  "terms": [
+   "logistics",
+   "retail logistics"
+  ],
+  "downloads": 27,
+  "likes": 2
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_order_management": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 27,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-synth-immunization-vaccine-quality-cold-chain-all": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 26,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_autonomous_vehicle_sensors": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 26,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_shipment_tracking": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 26,
+  "likes": 0
+ },
+ "Idlebeing/car-classification-models": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 25,
+  "likes": 0
+ },
+ "fabiovilao/obd2-ptbr": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 25,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_eta_accuracy": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 25,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_toll_stop_delay": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 25,
+  "likes": 0
+ },
+ "MCP-1st-Birthday/smoltrace-food-delivery-tasks-v2": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 25,
+  "likes": 0
+ },
+ "aqxlogistics/us-saudi-freight-rates-benchmark-2026": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 25,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_fuel_consumption": {
+  "terms": [
+   "fuel consumption",
+   "logistics"
+  ],
+  "downloads": 24,
+  "likes": 0
+ },
+ "tzcnb999/pixanima-idle-data": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 24,
+  "likes": 0
+ },
+ "CodesList/obd2-codes": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 24,
+  "likes": 0
+ },
+ "NanQiangHF/LogisticsData_WM_2048": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 24,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_customs_clearance": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 24,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_road_condition": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 24,
+  "likes": 0
+ },
+ "bigpplord/freight-rate-assessment-data": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 24,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_delivery_satisfaction": {
+  "terms": [
+   "delivery",
+   "logistics"
+  ],
+  "downloads": 23,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-synth-agriculture-cold-chain-nigeria": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "ClarusC64/fisheries-fleet-capacity-stock-coherence-risk-v0.1": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "leledeyuan/idle-phase": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_accident_incidents": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_customer_support_logs": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_driver_behavior": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_drone_delivery": {
+  "terms": [
+   "delivery",
+   "logistics"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_flight_operations": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_marine_weather_navigation": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_subscription_loyalty": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "ClarusC64/clinical-nutrition-order-delivery-coherence-risk-v0.1": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "CtrlAltDEviL/freight_forwarding": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 22,
+  "likes": 1
+ },
+ "dsfox/worlds-largest-freight-railways": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 22,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_cold_chain": {
+  "terms": [
+   "cold chain",
+   "cold-chain",
+   "logistics"
+  ],
+  "downloads": 21,
+  "likes": 0
+ },
+ "latterworks/gsm8k-fleet-eval": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 21,
+  "likes": 0
+ },
+ "idleengine/reddit_finance_posts_sp500": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 21,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_blockchain_logistics": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 21,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_delivery_routes": {
+  "terms": [
+   "delivery",
+   "logistics"
+  ],
+  "downloads": 21,
+  "likes": 0
+ },
+ "ClarusC64/clinical-imaging-request-report-delivery-coherence-risk-v0.1": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 21,
+  "likes": 0
+ },
+ "ZakyF/Food-Delivery-Dataset": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 21,
+  "likes": 1
+ },
+ "electricsheepasia/asia-owid-fossil-fuel-consumption-by-fuel-type": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 20,
+  "likes": 0
+ },
+ "electricsheepasia/asia-owid-women-can-register-a-business-in-the-same-way-as-men": {
+  "terms": [
+   "CAN bus"
+  ],
+  "downloads": 20,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_inventory_forecasting": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 20,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_parking": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 20,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_ride_hailing": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 20,
+  "likes": 0
+ },
+ "electricsheepafrica/Logistics-performance-index-Overall-1-low-to-5-high": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 19,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_atc_logs": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 19,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_smart_city_mobility": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 19,
+  "likes": 0
+ },
+ "ClarusC64/public-policy-procurement-contract-delivery-coherence-risk-v0.1": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 19,
+  "likes": 0
+ },
+ "ClarusC64/clinical-oxygen-demand-delivery-coherence-risk-v0.1": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 19,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-owid-fossil-fuel-consumption-by-fuel-type": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 18,
+  "likes": 1
+ },
+ "electricsheepafrica/africa-mauritius-final-energy-consumption-by-sector-and-type-of-fuel-for-ma-1169a647": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 18,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-mauritius-final-energy-consumption-by-sector-and-type-of-fuel-for-ma-0b550a9f": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 18,
+  "likes": 0
+ },
+ "electricsheepasia/asia-demographics-rapid-needs-assessment-for-idleb-governo": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 18,
+  "likes": 0
+ },
+ "idleengine/FinSearchComp": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 18,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_ev_charging": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 18,
+  "likes": 1
+ },
+ "bengusu80/humanoid-object-delivery-dataset-v1": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 18,
+  "likes": 0
+ },
+ "scottnathan5774/telematics": {
+  "terms": [
+   "telematics"
+  ],
+  "downloads": 17,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_public_transport_schedules": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 17,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_road_network_maps": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 17,
+  "likes": 0
+ },
+ "ClarusC64/public-policy-procurement-award-delivery-coherence-risk-v0.1": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 17,
+  "likes": 0
+ },
+ "jjun123/delivery-app-function-calling-datasets-korean": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 17,
+  "likes": 0
+ },
+ "mlnomad/imnet1k_freight_car": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 17,
+  "likes": 0
+ },
+ "ClarusC64/coldchain-power-continuity-coherence-risk-v0.1": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 16,
+  "likes": 0
+ },
+ "mgschwind/fleetwide-nvfp4-t4-wheelhouse": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 16,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_bridge_tunnel_sensors": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 16,
+  "likes": 0
+ },
+ "MCP-1st-Birthday/smoltrace-food-delivery-tasks": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 16,
+  "likes": 0
+ },
+ "ClarusC64/ai-procurement-carbon-clauses-delivery-coherence-risk-v0.1": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 16,
+  "likes": 0
+ },
+ "ClarusC64/clinical-oxygen-order-delivery-coherence-risk-v0.1": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 16,
+  "likes": 0
+ },
+ "huihanl/sirius-fleet-robocasa": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 15,
+  "likes": 0
+ },
+ "Fleetinghyh/StreamingCoT": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 15,
+  "likes": 0
+ },
+ "idleengine/JF-ICR": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 15,
+  "likes": 0
+ },
+ "NanQiangHF/LogisticsData_1-3": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 15,
+  "likes": 0
+ },
+ "SeyhaLite/Personas-Delivery-Khmer": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 15,
+  "likes": 0
+ },
+ "ClarusC64/clinical-oxygen-prescription-delivery-saturation-coherence-risk-v0.1": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 15,
+  "likes": 0
+ },
+ "ClarusC64/clinical-nutrition-order-delivery-intake-coherence-risk-v0.1": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 15,
+  "likes": 0
+ },
+ "ClarusC64/clinical-quad-temperature-excursion-cold-chain-break-potency-loss-site-dosing-error-v0.1": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 14,
+  "likes": 0
+ },
+ "AnodeAI/Humanoid-Kinetic-Fleet": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 14,
+  "likes": 0
+ },
+ "electricsheepeurope/europe-owid-women-can-register-a-business-in-the-same-way-as-men": {
+  "terms": [
+   "CAN bus"
+  ],
+  "downloads": 14,
+  "likes": 0
+ },
+ "Fdddhhhill/last_mile_delivery_data.csv": {
+  "terms": [
+   "delivery",
+   "last mile",
+   "last-mile"
+  ],
+  "downloads": 14,
+  "likes": 0
+ },
+ "alirezaaminzadeh/stochastic-last-mile-benchmark": {
+  "terms": [
+   "last mile",
+   "last-mile"
+  ],
+  "downloads": 14,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_route_optimization": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 14,
+  "likes": 0
+ },
+ "partsnow/us-heavy-duty-trucks": {
+  "terms": [
+   "heavy duty"
+  ],
+  "downloads": 14,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-cold-chain-iot": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 13,
+  "likes": 0
+ },
+ "wfzimmerman/fleets-of-wwii-design-commentary": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 13,
+  "likes": 0
+ },
+ "alirezaaminzadeh/fleetcharge-sample-scenarios": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 13,
+  "likes": 0
+ },
+ "electricsheepasia/asia-unsdg-fossil-fuel-subsidies-consumption-and-production-per-ca-er-ffs-cmpt-pc-cd": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 13,
+  "likes": 0
+ },
+ "zestcode5/ur3-multiple-task-trimmed-idle": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 13,
+  "likes": 0
+ },
+ "idleengine/PRBench": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 13,
+  "likes": 0
+ },
+ "idleengine/reddit_finance_43_250k": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 13,
+  "likes": 0
+ },
+ "NanQiangHF/LogisticsData_WM": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 13,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_load_weight": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 13,
+  "likes": 0
+ },
+ "ClarusC64/maritime-reefer-temperature-power-event-coherence-risk-v0.1": {
+  "terms": [
+   "reefer"
+  ],
+  "downloads": 12,
+  "likes": 0
+ },
+ "AroticMerch/humanoid-fleet-coordination-dataset": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 12,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_energy_and_utilities_fuel_consumption": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 12,
+  "likes": 0
+ },
+ "electricsheepasia/asia-owid-fossil-fuel-consumption-by-type": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 12,
+  "likes": 0
+ },
+ "ClarusC64/logistics-last-mile-delivery-coherence-risk-v0.1": {
+  "terms": [
+   "delivery",
+   "last mile",
+   "last-mile"
+  ],
+  "downloads": 12,
+  "likes": 0
+ },
+ "NanQiangHF/LogisticsData_1-3_WM": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 12,
+  "likes": 0
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_engine_sensors": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 12,
+  "likes": 0
+ },
+ "Sravankumarbonthada/Ecommers-delivery": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 12,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-owid-fossil-fuel-consumption-by-type": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 11,
+  "likes": 0
+ },
+ "electricsheepeurope/europe-owid-fossil-fuel-consumption-by-type": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 11,
+  "likes": 0
+ },
+ "jisoo3/game_block_stacking_0521_idle_augmented": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 11,
+  "likes": 0
+ },
+ "spybot09/bank-delivery-portfolio-lite": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 11,
+  "likes": 0
+ },
+ "Fdddhhhill/fleet_management_data.csv": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 10,
+  "likes": 0
+ },
+ "alirezaaminzadeh/maintopt-sample-fleet": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 10,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-owid-co-emissions-per-capita-vs-fossil-fuel-consumption-per-capita": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 10,
+  "likes": 0
+ },
+ "idleengine/Personal-Finance-Queries": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 10,
+  "likes": 0
+ },
+ "kshitijthakkar/smoltrace-food-delivery-tasks": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 10,
+  "likes": 0
+ },
+ "acengnew/delivery-commands-json": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 10,
+  "likes": 0
+ },
+ "Fdddhhhill/supply_chain_delivery_metrics.csv": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 10,
+  "likes": 0
+ },
+ "nnatalie05/Food-Delivery": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 10,
+  "likes": 0
+ },
+ "Destine234/nigerian_retail_and_ecommerce_supply_chain_logistics_data": {
+  "terms": [
+   "retail logistics"
+  ],
+  "downloads": 10,
+  "likes": 0
+ },
+ "piyushsrivastava0708/adaption-fleet-ops-risk-analysis": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 9,
+  "likes": 1
+ },
+ "davanstrien/fleet-test-paddleocr-vl-1.6": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "Shanmuk4622/fleet-registry": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-owid-fossil-fuel-consumption-per-capita": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "electricsheepasia/asia-owid-fossil-fuel-consumption-per-capita": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "electricsheepeurope/europe-owid-fossil-fuel-consumption-by-fuel-type": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "idlefish2/FinCast-Paper-test": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "LogisticsAiMl/insurance-logs203": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "mljucyyyy/food_delivery": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "lizaiyuan0804/track_b_delivery": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-unsdg-freight-volume-by-mode-of-transport-tonne-kilometres-is-rdp-frgvol": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "electricsheepasia/asia-owid-air-transport-freight-ton-km": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 9,
+  "likes": 0
+ },
+ "davanstrien/fleet-test-falcon-ocr": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 8,
+  "likes": 0
+ },
+ "s-maddrellmander/idlemachines-50B": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 8,
+  "likes": 0
+ },
+ "idle5492/conda": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 8,
+  "likes": 0
+ },
+ "idleengine/conv-finre-nohistory": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 8,
+  "likes": 0
+ },
+ "lizaiyuan0804/track_a_delivery": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 8,
+  "likes": 0
+ },
+ "ClarusC64/clinical-quad-coldchain-temp-excursion-transit-delay-potency-loss-v0.1": {
+  "terms": [
+   "cold chain",
+   "cold-chain"
+  ],
+  "downloads": 7,
+  "likes": 0
+ },
+ "electricsheepasia/asia-unsdg-fossil-fuel-subsidies-consumption-and-production-billio-er-ffs-cmpt-cd": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 7,
+  "likes": 0
+ },
+ "electricsheepeurope/europe-owid-co-emissions-per-capita-vs-fossil-fuel-consumption-per-capita": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 7,
+  "likes": 0
+ },
+ "electricsheepeurope/europe-owid-fossil-fuel-consumption-per-capita": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 7,
+  "likes": 0
+ },
+ "idleheroevich2/Aatrox": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 7,
+  "likes": 0
+ },
+ "electricsheepafrica/africa-unsdg-number-of-disruptions-to-other-basic-services-attribute-vc-dsr-obdn": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 7,
+  "likes": 0
+ },
+ "abishekrk93/tanglish-delivery": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 7,
+  "likes": 0
+ },
+ "jjun123/deliveryapp-traindata-100": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 7,
+  "likes": 0
+ },
+ "electricsheepeurope/europe-owid-air-transport-freight-ton-km": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 7,
+  "likes": 0
+ },
+ "Matheus30cs/FleetwaySonic": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "ismailaib/FleetVision": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 6,
+  "likes": 1
+ },
+ "SanskarDhyani98/fleet-admiral-training-artifacts": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "electricsheepeurope/europe-unsdg-fossil-fuel-subsidies-consumption-and-production-billio-er-ffs-cmpt-cd": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "electricsheepeurope/europe-unsdg-fossil-fuel-subsidies-consumption-and-production-per-ca-er-ffs-cmpt-pc-cd": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "idleheroevich2/Mordekaiser": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "dda71427/vibration_idle.json": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "idleengine/conv-finre": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "fkskdldh/delivery_data_set": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "acengnew/delivery-command-interpreter": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "jjun123/deliveryapp-traindata-500": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "jomarie04/philippines_convenience_stores": {
+  "terms": [
+   "convenience store"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "electricsheepasia/asia-unsdg-freight-volume-by-mode-of-transport-tonne-kilometres-is-rdp-frgvol": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 6,
+  "likes": 0
+ },
+ "electricsheepeurope/europe-unsdg-fossil-fuel-subsidies-consumption-and-production-as-a-p-er-ffs-cmpt-gdp": {
+  "terms": [
+   "fuel consumption"
+  ],
+  "downloads": 5,
+  "likes": 0
+ },
+ "idleheroevich2/Jodl": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 5,
+  "likes": 0
+ },
+ "idleheroevich2/Burgdorf": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 5,
+  "likes": 0
+ },
+ "electricsheepasia/asia-unsdg-number-of-disruptions-to-other-basic-services-attribute-vc-dsr-obdn": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 5,
+  "likes": 0
+ },
+ "heywant/QA-Dataset-Logistics-AGV": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 5,
+  "likes": 0
+ },
+ "Shoriful025/autonomous_delivery_drone_telemetry": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 5,
+  "likes": 0
+ },
+ "Marcis/Fleetway_Super_Sonic": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 4,
+  "likes": 0
+ },
+ "Aaweg/Vehicle_Fuel_Economy_Analysis": {
+  "terms": [
+   "vehicle fuel"
+  ],
+  "downloads": 4,
+  "likes": 0
+ },
+ "idleheroevich2/Krebs": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 4,
+  "likes": 0
+ },
+ "idleheroevich2/CordeliusBrawlStars": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 4,
+  "likes": 0
+ },
+ "vie123/obd": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 4,
+  "likes": 0
+ },
+ "Jesulin/delivery": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 4,
+  "likes": 0
+ },
+ "LucaParra/delivery_data": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 4,
+  "likes": 0
+ },
+ "tor24/india-logistics-freight-mini-001": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 4,
+  "likes": 0
+ },
+ "tekwhisperer/reefer": {
+  "terms": [
+   "reefer"
+  ],
+  "downloads": 3,
+  "likes": 0
+ },
+ "ganjaguru/Reefer": {
+  "terms": [
+   "reefer"
+  ],
+  "downloads": 3,
+  "likes": 0
+ },
+ "Marcis/fleetwal-sonic": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 3,
+  "likes": 0
+ },
+ "idleheroevich2/FrankBrawlStars": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 3,
+  "likes": 0
+ },
+ "idleheroevich2/untergang_shitler": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 3,
+  "likes": 0
+ },
+ "idleroom/seres": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 3,
+  "likes": 0
+ },
+ "andersongeroli1/obdmOQqQ": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 3,
+  "likes": 0
+ },
+ "dillonbyers1995/ObdxNwx9": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 3,
+  "likes": 0
+ },
+ "NanQiangHF/LogisticsData_RP": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 3,
+  "likes": 0
+ },
+ "LogisticsAiMl/raglogs": {
+  "terms": [
+   "logistics"
+  ],
+  "downloads": 3,
+  "likes": 0
+ },
+ "Marcis/fleetwalsonic": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 2,
+  "likes": 0
+ },
+ "jasonyandell/mk5-fleet-payload": {
+  "terms": [
+   "fleet"
+  ],
+  "downloads": 2,
+  "likes": 0
+ },
+ "Idleheroevich/PepGuardiola": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 2,
+  "likes": 0
+ },
+ "idleheroevich2/SurgeBrawlStars": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 2,
+  "likes": 0
+ },
+ "idleheroevich2/BrawlStarsCharacters": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 2,
+  "likes": 0
+ },
+ "idleheroevich2/fwog": {
+  "terms": [
+   "idle"
+  ],
+  "downloads": 2,
+  "likes": 0
+ },
+ "Vladimir1731/obdet_test": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 2,
+  "likes": 0
+ },
+ "lillianLee/LastMile": {
+  "terms": [
+   "last mile",
+   "last-mile"
+  ],
+  "downloads": 2,
+  "likes": 0
+ },
+ "asmarikabdar/delivery": {
+  "terms": [
+   "delivery"
+  ],
+  "downloads": 2,
+  "likes": 0
+ },
+ "Sadagat/freight-transportation-ukraine-1995-2020-new": {
+  "terms": [
+   "freight"
+  ],
+  "downloads": 2,
+  "likes": 0
+ },
+ "justincnn/obD9W01EuqMkHXq064": {
+  "terms": [
+   "OBD"
+  ],
+  "downloads": 1,
+  "likes": 0
+ }
+}

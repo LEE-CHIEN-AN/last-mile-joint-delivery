@@ -1,0 +1,195 @@
+{
+ "vincewin/CREST_fleet": {
+  "lic": [],
+  "size": [],
+  "syn": [],
+  "readme": "(no README: HTTP Error 404: Not Found)"
+ },
+ "kienho44652/telematics": {
+  "lic": [],
+  "size": [],
+  "syn": [],
+  "readme": "(no README: HTTP Error 404: Not Found)"
+ },
+ "ngando49081/telematics": {
+  "lic": [],
+  "size": [],
+  "syn": [],
+  "readme": "(no README: HTTP Error 404: Not Found)"
+ },
+ "NifferLi/Cold-Chain-Transportation-Strawberry": {
+  "lic": [
+   "license:apache-2.0"
+  ],
+  "size": [
+   "size_categories:100K<n<1M"
+  ],
+  "syn": [],
+  "readme": " # Cold-Chain Transportation Strawberry Dataset — ADVEI Article Release This repository provides the processed dataset used in the accepted *Advanced Engineering Informatics* article: **A Human-Centric Edge-Oriented Decision Support System for Cold Chain Transportation: Early Warning, Trigger-Time Explanation, and Prescriptive Action Ranking** To be published in: *Advanced Engineering Informatics*. ## Final Article Release The finalized article-release dataset is hosted directly in this Hugging Face repository and can be viewed or downloaded using the links below: | File | Hugging Face | |---|---| | `ALL_benchmark_W60.parquet` | [View or download](article_release/ALL_benchmark_W60.parquet) |"
+ },
+ "NifferLi/cold-chain-strawberry-sensors": {
+  "lic": [
+   "license:cc-by-4.0"
+  ],
+  "size": [
+   "size_categories:10K<n<100K"
+  ],
+  "syn": [
+   "generated"
+  ],
+  "readme": " # Cold-Chain Strawberry Multi-Sensor Dataset (Shipments S1–S6) This repository provides a processed multi-shipment cold-chain dataset for fresh strawberries. It supports research on human-centric cold-chain transportation monitoring, interpretable rule-based risk assessment, and small language model (SLM) generation of driver-facing alert messages. The dataset accompanies the following article: > Li, H., Uygun, Ö., Yu, X., Zhou, Y., Yang, Z., & Chen, C.-H. (2026). *A Human-Centric Decision Support Framework for Edge-Based Cold Chain Transportation Monitoring with Small Language Models*. Computers & Industrial Engineering, 112240. https://doi.org/10.1016/j.cie.2026.112240 ## Dataset Overview"
+ },
+ "electricsheepafrica/africa-cold-chain-iot": {
+  "lic": [
+   "license:cc-by-4.0"
+  ],
+  "size": [
+   "size_categories:10K<n<100K"
+  ],
+  "syn": [
+   "synthetic"
+  ],
+  "readme": " # African Cold Chain IoT Security Dataset | Africa (original) **Size category:** `10K<n<100K` - **Formats:** `parquet`, `optimized-parquet` - **Sector:** governance_security - *Engineered by [Electric Sheep Africa](https://huggingface.co/electricsheepafrica)* ![size](https://img.shields.io/badge/size-10K%3Cn%3C100K-blue) ![sector](https://img.shields.io/badge/sector-governance_security-green) ![downloads](https://img.shields.io/badge/HF_downloads-13-orange) ![license](https://img.shields.io/badge/license-cc--by--4.0-lightgrey) ## TL;DR This dataset is part of the Electric Sheep Africa catalog on Hugging Face. It is indexed for African data discovery with standardized metadata, loading guida"
+ },
+ "electricsheepafrica/nigerian_transport_and_logistics_cold_chain": {
+  "lic": [
+   "license:other"
+  ],
+  "size": [
+   "size_categories:100K<n<1M"
+  ],
+  "syn": [],
+  "readme": " # Nigeria Transport & Logistics – Cold Chain Monitoring | Africa (Electric Sheep Africa metadata inventory) **Size category:** `100K<n<1M` - **Formats:** `parquet` - **Sector:** infrastructure_transport - *Engineered by [Electric Sheep Africa](https://huggingface.co/electricsheepafrica)* ![size](https://img.shields.io/badge/size-100K%3Cn%3C1M-blue) ![sector](https://img.shields.io/badge/sector-infrastructure_transport-green) ![downloads](https://img.shields.io/badge/HF_downloads-35-orange) ![license](https://img.shields.io/badge/license-other-lightgrey) ## TL;DR This dataset is part of the Electric Sheep Africa catalog on Hugging Face. It is indexed for African data discovery with standardi"
+ },
+ "mindweave/vehicle-fleet-management": {
+  "lic": [
+   "license:cc-by-nc-4.0"
+  ],
+  "size": [
+   "size_categories:1K<n<10K"
+  ],
+  "syn": [
+   "generated",
+   "simulat",
+   "synthetic"
+  ],
+  "readme": " # Vehicle Fleet Management Dataset (Free Sample) > **This is a free sample** with 2,126 rows. The full dataset has **12,624 rows** across 5 tables. Fleet operations data for a simulated delivery company with 60 vehicles across 3 depots. 15,000 trip records, maintenance logs, fuel purchases, and driver assignments over 18 months. Features mileage-based maintenance schedules, fuel efficiency tracking by vehicle type, seasonal route patterns, and two anomalies — a fuel price spike and a vehicle recall affecting 8 trucks. Ideal for: fleet management software, logistics optimization, predictive maintenance ML, fuel cost analysis, and transportation dashboards. ## Sample tables | Table | Sample R"
+ },
+ "sps44/synthetic-vehicle-fleet-telemetry": {
+  "lic": [],
+  "size": [],
+  "syn": [],
+  "readme": "(no README: HTTP Error 404: Not Found)"
+ },
+ "tekwhisperer/reefer": {
+  "lic": [
+   "license:apache-2.0"
+  ],
+  "size": [
+   "size_categories:n<1K"
+  ],
+  "syn": [],
+  "readme": "(no README: HTTP Error 401: Unauthorized)"
+ },
+ "ganjaguru/Reefer": {
+  "lic": [],
+  "size": [
+   "size_categories:1K<n<10K"
+  ],
+  "syn": [],
+  "readme": "(no README: HTTP Error 401: Unauthorized)"
+ },
+ "partsnow/us-heavy-duty-trucks": {
+  "lic": [
+   "license:cc-by-4.0"
+  ],
+  "size": [
+   "size_categories:n<1K"
+  ],
+  "syn": [],
+  "readme": " # US Heavy-Duty Trucks Encyclopedia 🚚 A curated, hand-verified reference dataset of the commercial trucks that run America's roads: **209 models from 25 manufacturers**, covering Class 3–8 — long-haul sleepers, day cabs, vocational and severe-duty rigs, refuse trucks, cabovers, legacy models still in service, and the new electric/hydrogen wave. Curated by [PartsNow](https://www.partsnow.ai) as the data behind our public [truck encyclopedia](https://agent.partsnow.ai/trucks). ## Fields | Column | Description | |---|---| | `make` | Manufacturer (Freightliner, Peterbilt, Kenworth, International, Volvo, Mack…) | | `parent` | Parent company (e.g. Daimler Truck North America, PACCAR, Traton) | | "
+ },
+ "turing-motors/Japan-Open-Driving-Dataset-Sample": {
+  "lic": [
+   "license:cc"
+  ],
+  "size": [
+   "size_categories:10K<n<100K"
+  ],
+  "syn": [],
+  "readme": " # Japan Open Driving Dataset Sample ## Overview This repository contains a sample subset of the **Japan Open Driving Dataset**, a large-scale autonomous driving dataset comprising over 100 hours of driving data collected in Tokyo, Japan. The data is stored in [nuScenes format](https://www.nuscenes.org/nuscenes) and can be loaded with the [nuscenes-devkit](https://github.com/nutonomy/nuscenes-devkit). In addition to sensor data and 3D annotations, this dataset includes virtual captioned data for training Vision-Language-Model (VLM) and Vision-Language-Action (VLA) models. See [captions/README.md](captions/README.md) for details. ## Dataset Statistics | Item | Count | | --- | --- | | Scenes |"
+ },
+ "ShantyCam/man-truckscenes": {
+  "lic": [],
+  "size": [],
+  "syn": [],
+  "readme": "(no README: HTTP Error 404: Not Found)"
+ },
+ "XieTenghu1/TruckV2X": {
+  "lic": [
+   "license:mit"
+  ],
+  "size": [
+   "size_categories:10K<n<100K"
+  ],
+  "syn": [],
+  "readme": " # TruckV2X: A Truck-Centered Perception Dataset [Paper](https://ieeexplore.ieee.org/abstract/document/11096563) [Project Page](https://xietenghu1.github.io/TruckV2X/) TruckV2X is the first large-scale truck-centered cooperative perception dataset, designed to address unique perception challenges in autonomous trucking (e.g., extensive blind spots, occlusions from large vehicle sizes, and dynamic trailer movements). It features multi-modal sensing (LiDAR and cameras) and supports multi-agent cooperation, including interactions between tractors, trailers, connected and automated vehicles (CAVs), and road-side units (RSUs). This dataset establishes performance benchmarks for heavy-duty vehicle"
+ },
+ "AtlasBuiltIt/human-telemetry-driving-dataset-lite-version": {
+  "lic": [
+   "license:cc-by-nc-4.0"
+  ],
+  "size": [
+   "size_categories:1K<n<10K"
+  ],
+  "syn": [
+   "simulat"
+  ],
+  "readme": " # Dataset Card for 15 Laps of 30Hz NGSIM-Style Telemetry This is a Lite Version of a larger research dataset focusing on human driving signatures in high-fidelity simulations. It includes 15 full laps of telemetry captured at 30Hz within Unreal Engine 5, specifically formatted to match NGSIM standards. ## Dataset Details ### Dataset Description This Lite Version dataset contains 15 laps of high-fidelity human driving telemetry. It is intended for researchers and students to verify data compatibility and test behavioral cloning scripts using a 27-dimensional input vector (Steering, Throttle, 12-Ray Sensors, etc.). - **Curated by:** Atlas Built ### Dataset Sources - **Repository:** https://at"
+ },
+ "alirezaaminzadeh/stochastic-last-mile-benchmark": {
+  "lic": [
+   "license:apache-2.0"
+  ],
+  "size": [
+   "size_categories:n<1K"
+  ],
+  "syn": [
+   "simulat"
+  ],
+  "readme": " # Stochastic Last-Mile Re-optimization Benchmark Benchmark results for **adaptive last-mile routing under uncertainty**, aligned with [MBZUAI/svrp-bench](https://huggingface.co/datasets/MBZUAI/svrp-bench). ## Contents | File | Description | |------|-------------| | `manifest.json` | Dataset metadata | | `eval_results.json` | Aggregate metrics per strategy | | `lastmile_*.json` | Per-instance strategy comparison results | ## Scenario - **100 delivery orders**, **10 vehicles** (medium preset) - Morning plan from **RouteFinder** (ai4co/routefinder) - Intraday disruptions: traffic, unavailability, new orders, vehicle failure - Re-optimization every 5 minutes or on disruption ## Strategies Evalu"
+ },
+ "Fdddhhhill/fleet_management_data.csv": {
+  "lic": [
+   "license:mit"
+  ],
+  "size": [
+   "size_categories:n<1K"
+  ],
+  "syn": [
+   "artificial",
+   "simulat"
+  ],
+  "readme": " # Industrial & Logistics AI Research Dataset Collection (2024 Edition) ## Overview This repository provides a structured collection of industrial and logistics datasets designed for artificial intelligence training, operational simulation, and supply chain optimization research. The datasets represent realistic industrial environments including manufacturing production lines, warehouse inventory systems, fleet management operations, predictive maintenance logs, smart factory automation metrics, port logistics throughput, and global trade analytics. All datasets are structured in CSV format and suitable for machine learning, forecasting models, anomaly detection systems, and industrial AI be"
+ },
+ "electricsheepafrica/lastmile-distribution-transport": {
+  "lic": [
+   "license:cc-by-4.0"
+  ],
+  "size": [
+   "size_categories:n<1K"
+  ],
+  "syn": [
+   "simulat"
+  ],
+  "readme": " # Last-Mile Distribution & Transport (Delivery Performance, Vehicle Fleet, Road Conditions, Patient Impact) | Africa (Electric Sheep Africa metadata inventory) **Size category:** `10K<n<100K` - **Formats:** `csv` - **Sector:** infrastructure_transport - *Engineered by [Electric Sheep Africa](https://huggingface.co/electricsheepafrica)* ![size](https://img.shields.io/badge/size-10K%3Cn%3C100K-blue) ![sector](https://img.shields.io/badge/sector-infrastructure_transport-green) ![downloads](https://img.shields.io/badge/HF_downloads-44-orange) ![license](https://img.shields.io/badge/license-cc--by--4.0-lightgrey) ## TL;DR This dataset is part of the Electric Sheep Africa catalog on Hugging Face."
+ },
+ "SanaullahTareen07/grab-safe-driver-telematics-cleaned-dataset": {
+  "lic": [],
+  "size": [
+   "size_categories:1M<n<10M"
+  ],
+  "syn": [],
+  "readme": ""
+ }
+}

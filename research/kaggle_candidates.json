@@ -1,0 +1,297 @@
+[
+ {
+  "ref": "skarin/cold-chain-shipment-silent-failure-dataset",
+  "url": "https://www.kaggle.com/datasets/skarin/cold-chain-shipment-silent-failure-dataset",
+  "title": "Cold Chain Shipment Silent Failure Dataset",
+  "subtitle": "IoT sensor telemetry from 8,000 cold chain shipments with silent failure labels",
+  "license": "CC0: Public Domain",
+  "mb": 1.0,
+  "updated": "2026-03-06T18:02:27.64Z",
+  "usability": 0.9411765,
+  "downloads": 186,
+  "synthetic_hits": [
+   "simulat"
+  ],
+  "description": "Cold chain logistics involves transporting temperature-sensitive goods such as pharmaceuticals, food, and biologics under strict environmental conditions. Failures, especially silent failures where product degradation occurs without triggering any alerts, pose serious risks and financial losses.\n\nThis dataset contains 8,000 simulated cold chain shipments, each recorded with IoT sensor telemetry, operational metadata, and two binary labels for failure detection tasks.\n\n**Prediction Targets**\n\n`label` predicts whether the shipment experienced any failure (1 = failure, 0 = normal). `silent_failure` predicts whether the failure was silent, meaning no alarm was raised despite product compromise (1 = silent, 0 = none).\n\nClass distribution: label is 29.5% positive (2,363 out of 8,000). Silent failure is 19.7% positive (1,574 out of 8,000).\n\n**Features**\n\nThe dataset includes 24 columns covering shipment identity, transit duration, door open count, temperature statistics (mean, max, min, std, recovery rate), humidity statistics (mean, std, max), package type, product volume, fill ratio, carrier ID, origin and destination zones, leg count, sensor gap hours, vibration index, three engineered latent features, and the two binary target columns.\n\n**Suggested Use Cases**\n\nBinary classification on either target, multi-label classification across both targets simultaneously, anomaly detection on unusual sensor patterns, feature importance analysis for silent failure drivers, and imbalanced learning research given the skewed class distributions."
+ },
+ {
+  "ref": "u201411546/data-sets-cold-chain-milk",
+  "url": "https://www.kaggle.com/datasets/u201411546/data-sets-cold-chain-milk",
+  "title": "Data Sets Cold Chain Milk",
+  "subtitle": " Data of temperature and time in the cold chain of milk.",
+  "license": "Other (specified in description)",
+  "mb": 3.8,
+  "updated": "2019-05-22T16:26:21.933Z",
+  "usability": 0.3529412,
+  "downloads": 589,
+  "synthetic_hits": [],
+  "description": ""
+ },
+ {
+  "ref": "datasetengineer/logistics-and-supply-chain-dataset",
+  "url": "https://www.kaggle.com/datasets/datasetengineer/logistics-and-supply-chain-dataset",
+  "title": "Logistics and supply chain dataset",
+  "subtitle": "",
+  "license": "CC0: Public Domain",
+  "mb": 15.5,
+  "updated": "2024-10-20T11:02:44.077Z",
+  "usability": 0.47058824,
+  "downloads": 11542,
+  "synthetic_hits": [],
+  "description": "This dataset captures a comprehensive set of logistics and supply chain operations, specifically collected from a logistics network in Southern California. The data spans from January 2021 to January 2024, encompassing various aspects of transportation, warehouse management, route planning, and real-time monitoring. It includes detailed hourly records of logistics activities, reflecting conditions in urban areas and transport corridors known for high traffic and dynamic operational challenges.\n\nThe dataset is collected from various sources, such as GPS tracking systems, IoT sensors, warehouse management systems, and external data providers. It covers different transportation modes, including trucks, drones, and rail, providing insights into operational efficiency, risk factors, and service reliability. The data has been anonymized and processed to ensure privacy while preserving the information needed for analysis.\n\nFeatures Overview\nThe dataset includes a variety of features that represent different aspects of logistics operations:\n\nTimestamp: The date and time when the data was recorded (hourly resolution).\nVehicle GPS Latitude: The latitude coordinate indicating the location of the vehicle.\nVehicle GPS Longitude: The longitude coordinate indicating the location of the vehicle.\nFuel Consumption Rate: The rate of fuel consumption recorded for the vehicle in liters per hour.\nETA Variation (hours): The difference between the estimated and actual arrival times.\nTraffic Congestion Level: The level of traffic congestion affecting the logistics route (scale 0-10).\nWarehouse Inventory Level: The current inventory levels at the warehouse (units).\nLoading/Unloading Time: The time taken for loading or unloading operations in hours.\nHandling Equipment Availability: Availability status of equipment like forklifts (0 = unavailable, 1 = available).\nOrder Fulfillment Status: Status indicating whether the order was fulfilled on time (0 = not fulfilled, 1 = fulfilled).\nWeather Condition Severity: The severity of weather conditions affecting operations (scale 0-1).\nPort Congestion Level: The level of congestion at the port (scale 0-10).\nShipping Costs: The costs associated with the shipping operations in USD.\nSupplier Reliability Score: A score indicating the reliability of the supplier (scale 0-1).\nLead Time (days): The average time taken for a supplier to deliver materials.\nHistorical Demand: The historical demand for logistics services (units).\nIoT Temperature: The temp"
+ },
+ {
+  "ref": "ziya07/smart-logistics-supply-chain-dataset",
+  "url": "https://www.kaggle.com/datasets/ziya07/smart-logistics-supply-chain-dataset",
+  "title": "Smart Logistics Supply Chain Dataset",
+  "subtitle": "Logistics Data with Real-time Asset Tracking, Shipment, and Delays",
+  "license": "CC0: Public Domain",
+  "mb": 0.1,
+  "updated": "2025-02-06T11:33:43.06Z",
+  "usability": 0.88235295,
+  "downloads": 8074,
+  "synthetic_hits": [],
+  "description": "This dataset provides real-time data for smart logistics operations, capturing various aspects of supply chain management over the past year (2024). It includes information on asset tracking, inventory levels, shipment statuses, environmental conditions, traffic, and user behaviors. The dataset features multiple stakeholders within the logistics network, including asset IDs, timestamps, traffic conditions, waiting times, and reasons for delays. Additionally, the data is enriched with real-time information from IoT sensors, such as temperature, humidity, and asset utilization, to facilitate advanced logistics optimization and decision-making. The target variable, Logistics_Delay, helps in identifying delays in logistics processes, which is essential for enhancing supply chain efficiency through proactive management and optimization techniques. This dataset is designed to be used for research and machine learning applications focused on smart logistics and supply chain performance improvement.\n\nKey Features:\nTimestamp: Date and time when the data was recorded, representing logistics activity.\nAsset_ID: Unique identifier for the logistical assets (e.g., trucks).\nLatitude & Longitude: Geographical coordinates of the asset for tracking and monitoring.\nInventory_Level: Current level of inventory associated with the asset or shipment.\nShipment_Status: Status of the shipment (e.g., In Transit, Delivered, Delayed).\nTemperature: Temperature recorded at the time of the shipment or transportation.\nHumidity: Humidity level at the time of recording.\nTraffic_Status: Current traffic condition (e.g., Clear, Heavy, Detour).\nWaiting_Time: Time spent waiting during the logistics process (in minutes).\nUser_Transaction_Amount: Monetary amount associated with user transactions.\nUser_Purchase_Frequency: Frequency of purchases made by the user.\nLogistics_Delay_Reason: Reason for any delays in the logistics process (e.g., Weather, Mechanical Failure).\nAsset_Utilization: Percentage of asset utilization, indicating how effectively assets are being used.\nDemand_Forecast: Predicted demand for the logistics services in the coming period.\nLogistics_Delay (Target): Binary variable indicating whether a logistics delay occurred (1 for delay, 0 for no delay)."
+ },
+ {
+  "ref": "ankitp013/automobile-telematics-dataset",
+  "url": "https://www.kaggle.com/datasets/ankitp013/automobile-telematics-dataset",
+  "title": "Automobile Telematics Dataset",
+  "subtitle": "Car driving sensors timely data",
+  "license": "Unknown",
+  "mb": 16.9,
+  "updated": "2021-05-18T06:28:56.947Z",
+  "usability": 0.6764706,
+  "downloads": 2446,
+  "synthetic_hits": [],
+  "description": "### Context\n\n- Telematics dataset comprises of internal and external on-board diagnostic PID (Parameter ID's) along with other sensors installed in the car. The role of these pid's/sensors is fixed and designated for every aspect of the car pe performance. The sensor comprises Position, hardware status, Accelerometer x,y, and z, External battery, Internal battery, ignition status, idling, and towing. rest other parameters mentioned in the variable columns are OBD PID's.\n- Each PID's/sensor has a certain measuring unit like Acceleration will have m/s^2, speed will have km/h, and so on. Not all PID's have a unit attached to them for eg. \"Monitor status since DTCs cleared\", \"Absolute load value\" etc.\n- There is a column named alarm class with values 0 to 4, alarm class resembles a threshold value a PID's observed per sampling time. The sampling time is different for each PID. There is a set of range of values that are assigned to each alarm class (0-4) also resembled as lowlow=1,low=2,high=3,highhigh=4, 0 stands in between low and high. For example, a speed (PID) with a value of 40 km/hr lies between the range of values for the alarm class with low(2) and high(3) so the corresponding alarm class will be tagged as 0 for that speed. For now alarm class will not vary a lot because this is the sample data.\n\n### Content\n\nThe data is captured across multiple devices fitted across the different cars and run throughout some time. The time is populated in the timestamp column, the variable for which the value is populated is shown across each record. Each record resembles the time at which that variable has captured and its corresponding alarm class(based on the threshold value; which is not of any interest at this point in time). \n\n### Inspiration\n\nThe dataset can be used to track the performance of the device and monitoring car behaviour like speeding, accelerating, turning, breaking etc."
+ },
+ {
+  "ref": "imtkaggleteam/fleet-vehicles-fuel-consumption",
+  "url": "https://www.kaggle.com/datasets/imtkaggleteam/fleet-vehicles-fuel-consumption",
+  "title": "Fleet Vehicles Fuel Consumption",
+  "subtitle": "Dataset showing how much fuel each council vehicle has consumed.",
+  "license": "Other (specified in description)",
+  "mb": 0.8,
+  "updated": "2024-01-10T15:14:55.193Z",
+  "usability": 0.9411765,
+  "downloads": 552,
+  "synthetic_hits": [],
+  "description": "**Data Description**\n\nDataset showing how much fuel each council vehicle has consumed, by year and by fuel type.\nDataset guidance The following information refers to the columns in the data:\nFleet = fleet number (specific number used to identify a vehicle)\nVehicle = vehicle type\nFuel = fuel used in litres\nDist.Run = Total mileage for the reporting period\nMPG = Miles Per Gallon\nType = D: Diesel, G: Gas Oil Due to problems and changes with the fuel system software this data is not available for 2017/18. \nData for 2018/19 will be published."
+ },
+ {
+  "ref": "yashdev01/vehicle-energy-and-telemetry-dataset",
+  "url": "https://www.kaggle.com/datasets/yashdev01/vehicle-energy-and-telemetry-dataset",
+  "title": "Vehicle Energy & Telemetry Dataset",
+  "subtitle": "Vehicle Energy & Telemetry Dataset (Curated Subset)",
+  "license": "Apache 2.0",
+  "mb": 910.8,
+  "updated": "2025-12-17T07:39:20.923Z",
+  "usability": 1.0,
+  "downloads": 659,
+  "synthetic_hits": [],
+  "description": "**🔍 Overview**\nThis dataset is a curated and manageable subset of large-scale vehicle telemetry and energy consumption data. It is designed for machine learning, data analysis, and research purposes, especially for tasks such as energy consumption prediction, driving behavior analysis, time-series modeling, and anomaly detection.\n\nThe dataset captures high-frequency vehicle sensor readings, environmental conditions, and road-related attributes collected during vehicle trips. To make experimentation easier and more accessible, a smaller subset has been extracted and organized from the original large dataset.\n\n**🧩 Dataset Contents**\nEach record represents a telemetry snapshot with features including (but not limited to):\n\n- Vehicle speed, engine RPM, fuel rate, and engine load\n- GPS coordinates (latitude & longitude)\n- Battery metrics (SOC, voltage, current)\n- Environmental parameters (outside air temperature, elevation, gradient)\n- Traffic and road context (speed limits, intersections, bus stops)\n- Target variable: Energy_Consumption\n- This makes the dataset suitable for:\n- Regression and forecasting problems\n- Energy efficiency modeling\n- EV/HEV analytics\n- Feature engineering and large-scale ML pipelines\n\n**📐 Data Size & Format**\n- Format: CSV\n- Rows: Reduced subset for practical usage\n- Columns: Rich numerical and categorical vehicle telemetry features\n\nThis subset is intentionally sized to allow users to work efficiently on local machines without requiring high-memory or distributed systems.\n\n**🧪 Suggested Use Cases**\n- Energy consumption prediction\n- Time-series modeling\n- Driving pattern analysis\n- Feature engineering practice\n- ML pipeline development (scikit-learn, PyTorch, TensorFlow)"
+ },
+ {
+  "ref": "eron93br/obd2data",
+  "url": "https://www.kaggle.com/datasets/eron93br/obd2data",
+  "title": "obd2data",
+  "subtitle": "Database with vehicle data collected through OBD-II port",
+  "license": "CC BY-SA 4.0",
+  "mb": 26.6,
+  "updated": "2019-04-13T16:07:03.19Z",
+  "usability": 0.7058824,
+  "downloads": 1160,
+  "synthetic_hits": [],
+  "description": "# The dataset\n\nThis dataset describes 27 different vehicular parameters collected through an OBD-II port of a vehicle. There are two different operational modes: idle mode, where the vehicle is parked but with the engine on, and the motion mode in four different routes (trajectories). \n\n# More info\n\nAll the data described here are captured from Toyota Etios 2014 1.5 version, using an embedded system (Carloop dev board) connected to the OBD-II port.\n\nIf you use this dataset in your research, please cite my article as reference of the data: https://ieeexplore.ieee.org/abstract/document/8891367\nYou can have full access to the dataset here --&gt; https://github.com/eron93br/carOBD.  Please start the repo! \n\n# Contact\nhttps://github.com/eron93br/carOBD\neron93@gmail.com"
+ },
+ {
+  "ref": "pedro2025/obd2-panel-opel-2012",
+  "url": "https://www.kaggle.com/datasets/pedro2025/obd2-panel-opel-2012",
+  "title": "OBD2_panel_opel_2012",
+  "subtitle": "Real OBD-II telemetry from a 2012 Opel Corsa (100h driving data)",
+  "license": "Attribution 4.0 International (CC BY 4.0)",
+  "mb": 942.0,
+  "updated": "2026-10-03T12:24:56.797Z",
+  "usability": 0.7058824,
+  "downloads": 241,
+  "synthetic_hits": [
+   "generated"
+  ],
+  "description": "\n## Table of Contents\n\n1. [OBD-II Telemetry](https://www.kaggle.com/datasets/pedro2025/obd2-panel-opel-2012#:~:text=OBD%2DII%20Telemetry%20Dataset)\n2. [Refueling History](https://www.kaggle.com/datasets/pedro2025/obd2-panel-opel-2012#:~:text=Refueling%20History%20Dataset)\n3. [PEAK-CAN Reverse Engineering](https://www.kaggle.com/datasets/pedro2025/obd2-panel-opel-2012#:~:text=PEAK%2DCAN%20Bus%20Reverse%20Engineering)\n\n## 📘 About the Datasets\nGithub code: \nhttps://github.com/pedro2025-prog/obd2-live-panel\n\n\n## OBD-II Telemetry Dataset\n\nThis dataset contains real-world OBD-II telemetry recorded from a 2012 Opel Corsa 1.2 (A12XER, 84 hp), manufactured in Zaragoza, Spain, with a curb weight of approximately 1.2 tons.\n\n Why this matters (practical use)\nThis approach can be used for:\n- estimating real fuel costs per route,\n- optimizing driving efficiency,\n- building vehicle-specific eco-routing systems.\nData was collected during everyday driving, including city traffic, suburban roads, and highway conditions.\n\nThe latest dataset upload marks **521 days since the start of the project**, covering more than a year of real-world vehicle telemetry.\n\nThe main file `dataset.csv` contains:\n\n- **998,036 rows**\n- **31 columns**\n- time-ordered samples from **2025-04-30** to **2026-09-27**\n- **335 hours, 8 minutes and 17 seconds of recorded telemetry**, including vehicle standstill periods\n- **28 fuel-tank segments** (`segment_id`)\n- **654 individual recording segments**, identified by `segment_file`\n\nThe total recording duration is calculated by summing the time between the first and last timestamp within each `segment_file`. Gaps between recording segments are excluded.\n\nEach row represents a single logged OBD-II read cycle. The average interval between consecutive rows within a segment is approximately **1.210 seconds**, corresponding to about **0.83 samples per second**. Individual PIDs are polled at different rates, so not every sensor value is refreshed in every row.\n\nThe dataset includes:\n\n- raw OBD-II sensor readings (PIDs),\n- estimated engine metrics (torque and power),\n- MAF-based and fuel-trim-corrected fuel usage estimates,\n- cumulative fuel consumption estimates calculated using trapezoidal integration,\n- heuristic gear estimation based on the RPM-to-speed ratio.\n---\n\n## 📊 Columns & PIDs Overview\n\n### 🔹 Core time and engine signals\n- `timestamp` – timestamp of the reading (ISO format)\n- `RPM` – engine speed [rpm]\n- `SPEED` – vehicle speed [km/h]\n\n### 🔹 Throttle,"
+ },
+ {
+  "ref": "tejalaveti2306/vehicle-maintenance-telemetry-data",
+  "url": "https://www.kaggle.com/datasets/tejalaveti2306/vehicle-maintenance-telemetry-data",
+  "title": "Vehicle Maintenance Telemetry Data",
+  "subtitle": "A dataset to predict vehicle component failures using telemetry data",
+  "license": "CC0: Public Domain",
+  "mb": 1.3,
+  "updated": "2025-07-09T13:36:49.96Z",
+  "usability": 0.64705884,
+  "downloads": 1088,
+  "synthetic_hits": [
+   "generated",
+   "simulat",
+   "synthetic"
+  ],
+  "description": "This dataset contains synthetically generated vehicle telemetry readings designed for developing and evaluating predictive maintenance models. It simulates sensor data, operational parameters, and eventual failure events for a fleet of vehicles over time.\n\nContext / Background:\nPredictive maintenance is crucial in fleet management to anticipate and prevent costly vehicle failures. This dataset aims to provide a realistic, yet controlled, environment to develop machine learning models that can predict impending issues (e.g., engine, brake, battery failures) based on time-series telemetry data.\n\nContent:\nThe dataset is structured with one row per telemetry reading per vehicle at a given timestamp. It includes the following key features:\n\nvehicle_id: Unique identifier for each simulated vehicle.\n\ntimestamp: Date and time of the telemetry reading (hourly frequency).\n\nodometer_reading: Vehicle's total mileage.\n\nCore Telemetry Parameters: engine_temp_c, engine_rpm, oil_pressure_psi, coolant_temp_c, fuel_level_percent, fuel_consumption_lph, engine_load_percent, throttle_pos_percent, air_flow_rate_gps, exhaust_gas_temp_c, vibration_level, engine_hours, vehicle_speed_kph.\n\nBrake System Parameters: brake_fluid_level_psi, brake_pad_wear_mm, brake_temp_c, abs_fault_indicator, brake_pedal_pos_percent, wheel_speed_fl_kph, wheel_speed_fr_kph, wheel_speed_rl_kph, wheel_speed_rr_kph.\n\nBattery/Electrical System Parameters: battery_voltage_v, battery_current_a, battery_temp_c, alternator_output_v, battery_charge_percent, battery_health_percent.\n\nEnvironmental/GPS Data: ambient_temp_c, humidity_percent, gps_latitude, gps_longitude.\n\nFailure Information:\n\nfailure_type: Indicates the type of failure (e.g., 'Engine', 'Brake', 'Battery') if a failure occurred for that vehicle. Many entries will be NaN if no failure has occurred or been recorded.\n\nfailure_date: The date when a specific failure occurred for a vehicle.\n\nPotential Use Cases:\nPredictive Maintenance: Build classification or regression models to predict time-to-failure or the likelihood of specific component failures.\n\nAnomaly Detection: Identify unusual patterns in telemetry data that might indicate a developing issue.\n\nFeature Engineering: Explore various time-series feature engineering techniques (e.g., rolling averages, standard deviations, deltas, lagged values).\n\nTime Series Analysis: Analyze trends and seasonality in vehicle sensor data.\n\nEducational Purposes: A clear, synthetic dataset for learning about time-se"
+ },
+ {
+  "ref": "syednaveed05/logistics-fleet-data",
+  "url": "https://www.kaggle.com/datasets/syednaveed05/logistics-fleet-data",
+  "title": "Logistics Fleet Data",
+  "subtitle": "",
+  "license": "Unknown",
+  "mb": 9.3,
+  "updated": "2023-09-19T06:54:18.417Z",
+  "usability": 0.47058824,
+  "downloads": 1160,
+  "synthetic_hits": [],
+  "description": "Freight Data - \nDate\nCustomer ID\nTruck ID\nInvoice Number\nFreight ID\nCity\nNet Revenue\nWeight (Kg)\nWeight (Cubic)\nGoods Value\n\nCost Data - \nDate\nTruck ID\nDrive ID\nKM Traveled\nLiters\nFuel\nMaintenance\nFixed Costs\n\n"
+ },
+ {
+  "ref": "datasetengineer/logistics-vehicle-maintenance-history-dataset",
+  "url": "https://www.kaggle.com/datasets/datasetengineer/logistics-vehicle-maintenance-history-dataset",
+  "title": "Logistics Vehicle Maintenance History Dataset",
+  "subtitle": "",
+  "license": "CC0: Public Domain",
+  "mb": 218.8,
+  "updated": "2026-05-29T15:45:35.363Z",
+  "usability": 0.47058824,
+  "downloads": 1552,
+  "synthetic_hits": [
+   "simulat"
+  ],
+  "description": "Version 2\nThis dataset consists of 250,000 records for vehicle maintenance prediction in IoT-enabled logistics operations. This dataset contains real time records of predictive maintenance, fleet monitoring, vehicle health assessment, edge-IoT analytics, and federated learning experiments. The dataset includes vehicle specifications, operating conditions, sensor measurements, diagnostic signals, historical pre-event maintenance information, communication-interface attributes, and derived maintenance indicators.\n\nThe dataset supports both binary and multiclass predictive maintenance tasks. The binary target Maintenance_Required indicates whether a vehicle requires maintenance, while the multiclass target Maintenance_Severity categorizes vehicle condition into Normal, Minor Maintenance, and Major Maintenance. \n\nThe dataset also includes predefined Train, Validation, and Test splits, along with simulated federated client assignments using a non-IID Dirichlet partition. This makes the dataset suitable for centralized machine learning, deep learning, edge-AI, and privacy-preserving federated learning experiments.\n\nFeatures:\n\nVehicle_ID: Unique identifier for each vehicle.\n\nMake_and_Model: Manufacturer and model of the vehicle.\n\nVehicle_Type: Type of logistics vehicle, such as light truck, heavy truck, electric truck, or refrigerated truck.\n\nYear_of_Manufacture: Manufacturing year of the vehicle.\n\nRoute_Info: Type of route typically followed by the vehicle, such as urban delivery, highway freight, cold-chain route, or port-to-warehouse route.\n\nWeather_Conditions: Weather condition during vehicle operation.\n\nRoad_Conditions: Road condition experienced by the vehicle.\n\nCommunication_Interface: Vehicle communication interface used for data acquisition, such as OBD-II/CAN, CAN-FD/Telematics, CAN/LIN, or OBD-II/CAN/LIN.\n\nTelematics_Gateway: Type of gateway used to collect and transmit vehicle telemetry.\n\nEdge_Device_Class: Embedded or edge device class associated with vehicle-side processing.\n\nUsage_Hours: Total operating hours of the vehicle.\n\nLoad_Capacity: Maximum load capacity of the vehicle.\n\nActual_Load: Actual load carried during operation.\n\nEngine_Temperature: Engine temperature recorded during vehicle operation.\n\nTire_Pressure: Tire pressure measured in PSI.\n\nFuel_Consumption: Fuel consumption level during vehicle operation.\n\nBattery_Status: Battery health or charge condition.\n\nVibration_Levels: Vehicle vibration level measured during operation.\n\nOil_Quality"
+ },
+ {
+  "ref": "karpzilla/indian-quick-commerce-last-mile-dataset",
+  "url": "https://www.kaggle.com/datasets/karpzilla/indian-quick-commerce-last-mile-dataset",
+  "title": "Indian Quick Commerce Last Mile Dataset",
+  "subtitle": "50k+ SKUs across Zepto, Blinkit & Instamart, 100k+ Delivery Delays & EV Telemetr",
+  "license": "CC BY-SA 4.0",
+  "mb": 27.4,
+  "updated": "2026-08-04T07:58:43.227Z",
+  "usability": 1.0,
+  "downloads": 85,
+  "synthetic_hits": [],
+  "description": "Multi-city Quick-Commerce dataset covering 50,000+ SKUs across Zepto, Blinkit, and Swiggy Instamart, 100,000+ last-mile delivery transactions, 36 dark store hubs, and 50,000 EV fleet battery & emissions logs across 6 Indian metropolitan areas."
+ },
+ {
+  "ref": "paulkamande/lade-last-mile-delivery-dataset-shanghai-subset",
+  "url": "https://www.kaggle.com/datasets/paulkamande/lade-last-mile-delivery-dataset-shanghai-subset",
+  "title": "Lade Last-Mile Delivery Dataset (Shanghai Subset)",
+  "subtitle": "Shanghai last-mile delivery data for courier performance, routing efficiency, an",
+  "license": "MIT",
+  "mb": 456.4,
+  "updated": "2026-04-02T01:13:33.457Z",
+  "usability": 0.7058824,
+  "downloads": 33,
+  "synthetic_hits": [],
+  "description": "This dataset contains a subset of last-mile delivery operations in Shanghai, derived from the LADE (Logistics and Delivery Efficiency) dataset. It includes detailed pickup and delivery records used to analyze operational performance in urban logistics systems.\n\nThe dataset is structured to support analysis of delivery efficiency, courier performance variability, and demand patterns over time."
+ },
+ {
+  "ref": "dataworld199/carbon-emission-fleet-dataset",
+  "url": "https://www.kaggle.com/datasets/dataworld199/carbon-emission-fleet-dataset",
+  "title": "Carbon emission fleet dataset",
+  "subtitle": "",
+  "license": "Other (specified in description)",
+  "mb": 0.1,
+  "updated": "2025-09-09T17:19:43.527Z",
+  "usability": 0.4117647,
+  "downloads": 69,
+  "synthetic_hits": [],
+  "description": "This dataset provides a detailed record of a logistics fleet's operations, focusing on the interplay between vehicle performance, operational choices, and environmental impact. It contains transactional data for individual deliveries, capturing key metrics that link vehicle type, route characteristics, and delivery priorities to CO₂ emissions and efficiency.\n\nThe data is ideal for anyone interested in green logistics, sustainable transportation, fleet management optimization, and predictive modeling. It allows for in-depth analysis of how different factors contribute to a fleet's carbon footprint and operational success."
+ },
+ {
+  "ref": "meissydanjiah/last-mile-delivery",
+  "url": "https://www.kaggle.com/datasets/meissydanjiah/last-mile-delivery",
+  "title": "LAST MILE DELIVERY",
+  "subtitle": "From Six Sub-Districts in Pontianak City, West Kalimantan Province, Indonesia",
+  "license": "Unknown",
+  "mb": 1.0,
+  "updated": "2024-08-02T09:00:36.363Z",
+  "usability": 0.5294118,
+  "downloads": 258,
+  "synthetic_hits": [],
+  "description": "This data presents **the coordinates of End Mile Delivery (EMD) customers** by road strata. The number of coordinate points for each road stratum was determined using a proportionate stratified random sampling technique.\n\nThis technique was used because Pontianak City has roads that are not homogeneous and proportionally stratified. The roads are said to be inhomogeneous because they consist of roads, alleys, complexes, housing, flats, blocks, and lanes in each sub-district in Pontianak City. Pontianak City roads are said to be stratified because they have 9 road strata starting from main roads to supporting roads. Data collection from these road strata was carried out proportionally based on the road distance sampling frame.\n"
+ },
+ {
+  "ref": "kundanbedmutha/delivery-logistics-dataset-india-multi-partner",
+  "url": "https://www.kaggle.com/datasets/kundanbedmutha/delivery-logistics-dataset-india-multi-partner",
+  "title": "Delivery Logistics Dataset (India – Multi-Partner)",
+  "subtitle": "A comprehensive dataset capturing delivery operations, delays, weather impact, t",
+  "license": "Attribution 4.0 International (CC BY 4.0)",
+  "mb": 3.7,
+  "updated": "2025-11-17T16:29:54.577Z",
+  "usability": 1.0,
+  "downloads": 3958,
+  "synthetic_hits": [
+   "generated",
+   "synthetic"
+  ],
+  "description": "This dataset provides an extensive and realistic representation of last-mile delivery logistics across multiple regions and delivery partners in India. It contains 25,000 delivery records, each reflecting operational conditions, package characteristics, environmental factors, and delivery outcomes.\n\nThe data includes major logistics providers such as Delhivery, Blue Dart, Ekart, DHL, FedEx, Shadowfax, XpressBees, Amazon Logistics, and Ecom Express. Each record describes key delivery attributes including package type, vehicle used, delivery mode, weather condition, travel distance, package weight, and cost estimation.\n\nPerformance-related fields such as actual delivery time, expected time, delay status, and final delivery status provide insights into how real-world constraints like traffic, vehicle type, and weather influence delivery efficiency. Additionally, a delivery rating is included to reflect customer feedback, helping explore service quality patterns.\n\nThe dataset is ideal for studying logistics operations, delay analysis, delivery cost behavior, route efficiency, environmental impact, and overall supply chain performance. Since the dataset is synthetically generated, it contains no personal information and is safe for academic, analytical, or business-oriented research.\n\nThe dataset was created using a multi-stage synthetic modeling pipeline:\n\n1. Delivery Setup\nEach record is assigned:\nA delivery partner\nA vehicle type\nA package type (electronics, groceries, furniture, fragile items, etc.)\nA delivery mode (Standard, Express, Same Day, Two Day)\n\n2. Distance & Weight Generation\nDistance ranges from 1–300 km and package weight from 0.2–50 kg, representing urban, semi-urban, and intercity operations.\n\n3. Environmental Impact\nWeather conditions such as Rainy, Foggy, Stormy, Hot, and Cold influence travel time using probabilistic delays.\n\n4. Delivery Time Calculation\nDelivery time is computed using:\nBase travel time (depending on distance and vehicle speed)\nWeather delays\nTraffic delays\n\n5. Expected Time & Delay Identification\nExpected delivery time varies by mode (Express, Same Day, etc.).\nDelay is marked as “Yes” if actual time exceeds expected time.\n\n6. Delivery Status & Rating\nIf not delayed → Delivered.\nIf delayed → “Delayed” or “Failed” with realistic probability.\nRatings follow service outcome: higher for successful deliveries, lower for failures.\n\n7. Cost Generation\nCost is based on:\nDistance\nWeight\nDelivery mode (Express and Same Day include su"
+ },
+ {
+  "ref": "sujalsuthar/amazon-delivery-dataset",
+  "url": "https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset",
+  "title": "Amazon Delivery Dataset",
+  "subtitle": "Analyzing Last-Mile Logistics and Delivery Performance",
+  "license": "MIT",
+  "mb": 6.0,
+  "updated": "2024-07-02T03:39:48.97Z",
+  "usability": 1.0,
+  "downloads": 15403,
+  "synthetic_hits": [],
+  "description": "This Amazon Delivery Dataset provides a comprehensive view of the company's last-mile logistics operations. It includes data on over 43,632 deliveries across multiple cities, with detailed information on order details, delivery agents, weather and traffic conditions, and delivery performance metrics. The dataset enables researchers and analysts to uncover insights into factors influencing delivery efficiency, identify areas for optimization, and explore the impact of various variables on the overall customer experience."
+ },
+ {
+  "ref": "ramakrishnanthiyagu/delivery-truck-trips-data",
+  "url": "https://www.kaggle.com/datasets/ramakrishnanthiyagu/delivery-truck-trips-data",
+  "title": "Delivery truck trips data",
+  "subtitle": "Logistics supply chain dataset",
+  "license": "CC BY-SA 3.0",
+  "mb": 1.8,
+  "updated": "2021-02-04T11:59:25.817Z",
+  "usability": 0.7058824,
+  "downloads": 9738,
+  "synthetic_hits": [],
+  "description": "**Dataset Description:**\n\nGpsProvider -\tVendor who provides GPS\nBookingID - Unique Identification for a trip\nMarket/Regular -\tType of trip. Regular - Vendors with whom we will have contract. Market - Vendor with whom we will not have contract \nBookingID_Date -\tDate when booking was created \nvehicle_no -\tTruck Number \nOrigin_Location -\tTrip start place \nDestination_Location -\tTrip end place\nOrg_lat_lon -\tLatitude/Longitude of start place \nDes_lat_lon -\tLatitude/Longitude of end place \nData_Ping_time -\tTime when we receive GPS ping \nPlanned_ETA -\tPlanned Estimated Time of Arrival \nCurrent_Location -\tLive location \nDestinationLocation -\tRepeat of destination location \nactual_eta -\tTime when the truck arrived \nCurr_lat -\tcurrent latitude - changes each time when we receive GPS ping \nCurr_lon -\tcurrent longitude  - changes each time when we receive GPS ping \nontime -\tIf the truck arrived on time - calculated based on Planned and Actual ETA\ndelay -\tIf the truck arrived with a delay  - calculated based on Planned and Actual ETA\nOriginLocation_Code -\tOrigin code\nDestinationLocation_Code -\tDestination code \ntrip_start_date -\tDate/Time when trip started \ntrip_end_date\tDate/Time when trip ended  - based on documentation (cant be considered for calculating delay)\\\nTRANSPORTATION_DISTANCE_IN_KM -\tTotal KM of travel \nvehicleType -\tType of Truck \nMinimum_kms_to_be_covered_in_a_day -\tMinimum KM the driver needs to cover in a day \nDriver_Name -\tDriver details \nDriver_MobileNo -\tDriver details \ncustomerID -\tCustomer details\ncustomerNameCode -\tCustomer details\nsupplierID -\tSupplier - Who provides the vehicle \nsupplierNameCode -\tSupplier - Who provides the vehicle \n"
+ },
+ {
+  "ref": "yogape/logistics-operations-database",
+  "url": "https://www.kaggle.com/datasets/yogape/logistics-operations-database",
+  "title": "Logistics Operations Database",
+  "subtitle": "3-Year Trucking Operations (2022-2024)",
+  "license": "MIT",
+  "mb": 60.2,
+  "updated": "2025-11-23T20:21:26.907Z",
+  "usability": 1.0,
+  "downloads": 11673,
+  "synthetic_hits": [
+   "fictional",
+   "generated",
+   "simulat",
+   "synthetic"
+  ],
+  "description": "# Kaggle Dataset: Logistics Operations Database (2022-2024)\n\n## About this Dataset\n\n### What's Inside\n\nA complete operational database from a fictional Class 8 trucking company spanning three years. This isn't scraped web data or simplified tutorial content—it's a realistic simulation built from 12 years of real-world logistics experience, designed specifically for analysts transitioning into supply chain and transportation domains.\n\nThe dataset contains 85,000+ records across 14 interconnected tables covering everything from driver assignments and fuel purchases to maintenance schedules and delivery performance. Each table maintains proper foreign key relationships, making this ideal for practicing complex SQL queries, building data pipelines, or developing operational dashboards.\n\n### Who This Is For\n\n**SQL Learners:** Master window functions, CTEs, and multi-table JOINs using realistic business scenarios rather than contrived examples.\n\n**Data Analysts:** Build portfolio projects that demonstrate understanding of operational metrics: cost-per-mile analysis, fleet utilization optimization, driver performance scorecards.\n\n**Aspiring Supply Chain Analysts:** Work with authentic logistics data patterns—seasonal freight volumes, equipment utilization rates, route profitability calculations—without NDA restrictions.\n\n**Data Science Students:** Develop predictive models for maintenance scheduling, driver retention, or route optimization using time-series data with actual business context.\n\n**Career Changers:** If you're moving from operations into analytics (like the dataset creator), this provides a bridge—your domain knowledge becomes a competitive advantage rather than a gap to explain.\n\n### Why This Dataset Exists\n\nMost logistics datasets are either proprietary (unavailable) or overly simplified (unrealistic). This fills the gap: operational complexity without confidentiality concerns. The data reflects real industry patterns:\n\n- Fuel prices track the 2022 diesel spike and 2023-2024 decline\n- Driver turnover sits at 15% annually (industry standard)\n- Equipment utilization averages 65% (typical for dry van operations)\n- On-time delivery performance ranges 85-95% (realistic service levels)\n- Maintenance intervals follow Class 8 PM schedules\n\n### Dataset Structure\n\n**Core Entities (Reference Tables):**\n- Drivers (150 records) - Demographics, employment history, CDL info\n- Trucks (120 records) - Fleet specs, acquisition dates, status\n- Trailers (180 records) -"
+ },
+ {
+  "ref": "programmer3/logistics-operations-and-risk-dataset",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "ref": "ziya07/ev-energy-consumption-dataset",
+  "url": "https://www.kaggle.com/datasets/ziya07/ev-energy-consumption-dataset",
+  "title": "EV Energy Consumption Dataset",
+  "subtitle": "Real-time Driving Behavior, Road, Weather & Vehicle Data for Energy Prediction",
+  "license": "CC0: Public Domain",
+  "mb": 1.4,
+  "updated": "2025-03-07T05:02:35.46Z",
+  "usability": 0.88235295,
+  "downloads": 1289,
+  "synthetic_hits": [],
+  "description": "Description\nThe EV Energy Consumption Dataset is designed to support research on energy efficiency in New Energy Vehicles (NEVs), particularly Electric Vehicles (EVs). This dataset captures real-time driving behavior, road conditions, weather factors, and vehicle attributes to predict energy consumption in kWh.\n\nKey Features:\nDriving Behavior: Speed, acceleration, and driving mode (Eco, Normal, Sport).\nRoad & Traffic Conditions: Road type (Highway, Urban, Rural), slope percentage, and traffic levels.\nWeather Factors: Temperature, humidity, wind speed, and weather conditions (Sunny, Rainy, Snowy, Foggy).\nVehicle Attributes: Battery state, voltage, temperature, tire pressure, and vehicle weight.\nEnergy Consumption (Target Variable): Estimated in kWh based on influencing factors.\nThis dataset is valuable for machine learning-based energy optimization, helping improve EV resource management and sustainability in transportation. 🚗⚡"
+ }
+]
