@@ -10,11 +10,13 @@
 
 | 順序 | 資料夾 | 先看這個檔 | 看什麼 | 有時間再看 |
 |---:|---|---|---|---|
-| 1 | `explore/` | [data_exploration.ipynb](explore/data_exploration.ipynb) 第 0 節與第 8 節 | 每份課程資料能回答什麼、有哪些坑 | [idle/idle_fleet.html](explore/idle/idle_fleet.html)(怠速分析結果) |
-| 2 | `research/` | [external_data_sources.md](research/external_data_sources.md) | 找了哪些外部資料、為什麼最後還是只能用課程資料 | [joint_delivery_sources.md](research/joint_delivery_sources.md)(共配文獻) |
-| 3 | `poc/` | [a_group_rebuild.ipynb](poc/a_group_rebuild.ipynb) 第 8 節 | **最新的方法與數字**:共配效益為什麼從 −51% 修正成 8–43% | [joint_delivery_poc.ipynb](poc/joint_delivery_poc.ipynb)(第一版試作) |
+| 1 | `explore/` | [data_exploration.ipynb](explore/data_exploration.ipynb) 第 0 節與第 10 節 | 每份課程資料能回答什麼、有哪些坑(第 8、9 節是助教補充的其他場站與車型表) | [idle/idle_fleet.html](explore/idle/idle_fleet.html)(怠速分析結果) |
+| 2 | `research/` | [1_external_data_sources.md](research/1_external_data_sources.md) | 找了哪些外部資料、為什麼最後還是只能用課程資料 | [2_joint_delivery_sources.md](research/2_joint_delivery_sources.md)(共配文獻) |
+| 3 | `poc/` | [2_a_group_rebuild.ipynb](poc/2_a_group_rebuild.ipynb) 第 8 節 | **最新的方法與數字**:共配效益為什麼從 −51% 修正成 8–43% | [3_remote_scan.ipynb](poc/3_remote_scan.ipynb)(放大到全臺)、[1_joint_delivery_poc.ipynb](poc/1_joint_delivery_poc.ipynb)(第一版試作) |
 
-想先看全貌,可以先翻兩次進度報告:[1005進度報告.pdf](1005進度報告.pdf) 對應 explore 階段,[1019進度報告.pdf](1019進度報告.pdf) 對應 poc 階段;提案正文是 [綠色工程專案研究POC Proposal.md](綠色工程專案研究POC%20Proposal.md)。
+`research/`、`poc/` 裡檔名開頭的數字是**製作順序**,照數字讀就是當時的思路;`data/`、`cache/`、`figures/` 等子資料夾放的是 notebook 讀寫的輸入、快取與圖檔,不用打開。
+
+想先看全貌,可以先翻三次進度報告:[1005進度報告.pdf](1005進度報告.pdf) 對應 explore 階段,[1019進度報告.pdf](1019進度報告.pdf) 對應 poc 階段,[1026進度報告.pdf](1026進度報告.pdf) 整理全家既有減碳作法、日韓中經驗,並比較三個減碳方案(四家共配、物流中心改插電、改加 HVO);提案正文是 [綠色工程專案研究POC Proposal.md](綠色工程專案研究POC%20Proposal.md)。
 
 ---
 
@@ -40,13 +42,13 @@
 
 | 做了什麼 | 檔案 | 結果 |
 |---|---|---|
-| 搜尋臺灣、日本、韓國官方與企業資料,以及 Kaggle、Hugging Face 上的資料集 | [research/external_data_sources.md](research/external_data_sources.md)、`research/kaggle_check.py`、`research/kaggle_candidates.json`、`research/hf_*.json` | **找不到公開的冷鏈配送車逐筆資料**;超商永續報告只有彙總數字;Kaggle 冷鏈資料多為模擬;最接近的美國 VED 是小客車資料,情境差很多 |
-| 蒐集跨品牌共同配送的一手文獻與實證 | [research/joint_delivery_sources.md](research/joint_delivery_sources.md) | 日本三大超商 2022 年北海道函館實證:行駛距離 −22%、CO₂ −56 kg。題目定為**跨品牌共同配送** |
-| 擬提案大綱與證據對照 | [research/poc_proposal_outline.md](research/poc_proposal_outline.md) | 標出哪些數字已查證、哪些還缺 |
+| 搜尋臺灣、日本、韓國官方與企業資料,以及 Kaggle、Hugging Face 上的資料集 | [research/1_external_data_sources.md](research/1_external_data_sources.md)、[research/dataset_search/](research/dataset_search/)(Kaggle、Hugging Face 搜尋腳本與候選清單) | **找不到公開的冷鏈配送車逐筆資料**;超商永續報告只有彙總數字;Kaggle 冷鏈資料多為模擬;最接近的美國 VED 是小客車資料,情境差很多 |
+| 蒐集跨品牌共同配送的一手文獻與實證 | [research/2_joint_delivery_sources.md](research/2_joint_delivery_sources.md) | 日本三大超商 2022 年北海道函館實證:行駛距離 −22%、CO₂ −56 kg。題目定為**跨品牌共同配送** |
+| 擬提案大綱與證據對照 | [research/3_proposal_notes.md](research/3_proposal_notes.md) 第一部分 | 標出哪些數字已查證、哪些還缺 |
 
 **這一步的結論:** 外部沒有能取代課程資料的逐筆資料,所以 PoC 用課程資料(油耗、全家路線)加上公開圖資(OpenStreetMap)來做。
 
-> `research/` 裡另外兩份是做 PoC 時陸續補的:[poc_draft_review.md](research/poc_draft_review.md)(10/9 提案初稿審閱)、[poc_evidence_gaps.md](research/poc_evidence_gaps.md)(10/18 補充臺灣層級數據與 A 組重建的方法依據)。
+> `research/` 裡另外兩份是做 PoC 時陸續補的:[3_proposal_notes.md](research/3_proposal_notes.md) 第二、三部分(10/9 提案初稿審閱、10/18 補充臺灣層級數據與 A 組重建的方法依據)、[4_last_mile_routing_paper.md](research/4_last_mile_routing_paper.md)(10/27 查核 Rashidi 等人 2025 年發表在 *Transportation Research Part C* 的插入法論文,全文 PDF 在 [research/papers/](research/papers/);論文可引用來支持「以實際路線為準、只做插入」的校準版,並提供「司機實際路線比最佳解多 5.9%」這個數字;它用的 Amazon 最後一哩路線資料集可免費取得,約 3.3 GB,但是美國電商包裹、沒有油耗與冷鏈,不建議下載)。
 
 ### 3. poc/:共同配送試作(10/9 起)
 
@@ -54,29 +56,39 @@
 
 | 做了什麼 | 檔案 | 結果 |
 |---|---|---|
-| 選東北角四區(瑞芳、貢寮、雙溪、平溪)四品牌 33 家門市;全家用門市主檔,他牌取自 OpenStreetMap 再逐一以官網核對 | `poc/ne_stores_*.csv`、`poc/osm_*.json` | 最終清單在 `poc/ne_stores_verified.csv`(排除 4 家歇業店) |
-| 用 OSRM 算道路距離、PyVRP 求解路線,比較 A 組(各自配送)與 B 組(共同配送) | [poc/joint_delivery_poc.ipynb](poc/joint_delivery_poc.ipynb) | 一輪配送里程 224.4 → 109.0 km(**−51%**)、趟數 5 → 2、行駛 CO₂ 每輪約 −64 kg |
-| 審閱提案初稿 | [research/poc_draft_review.md](research/poc_draft_review.md) | 指出 −51% 遠高於函館的 −22%,主因是 A 組假設「各品牌**專程**進入東北角」 |
+| 選東北角四區(瑞芳、貢寮、雙溪、平溪)四品牌 33 家門市;全家用門市主檔,他牌取自 OpenStreetMap 再逐一以官網核對 | `poc/data/ne_stores_*.csv`、`poc/cache/osm_*.json` | 最終清單在 `poc/data/ne_stores_verified.csv`(排除 4 家歇業店) |
+| 用 OSRM 算道路距離、PyVRP 求解路線,比較 A 組(各自配送)與 B 組(共同配送) | [poc/1_joint_delivery_poc.ipynb](poc/1_joint_delivery_poc.ipynb) | 一輪配送里程 224.4 → 109.0 km(**−51%**)、趟數 5 → 2、行駛 CO₂ 每輪約 −64 kg |
+| 審閱提案初稿 | [research/3_proposal_notes.md](research/3_proposal_notes.md) 第二部分 | 指出 −51% 遠高於函館的 −22%,主因是 A 組假設「各品牌**專程**進入東北角」 |
 
 **檢驗假設、重建 A 組(10/18–10/19)**
 
 | 做了什麼 | 檔案 | 結果 |
 |---|---|---|
-| 查全家東北角門市在配送計畫中實際怎麼送 | [poc/a_group_rebuild.ipynb](poc/a_group_rebuild.ipynb) 第 1 節 | **沒有一趟是專程配送**:瑞芳門市由晚班 LJ、OP 順路帶到,平溪由早班 SE 經過;貢寮不由瑞芳 DC 配送。實際每停一家東北角門市只多跑 3.8 km,PoC 假設的 8.8 km 是實際的 2.3 倍 |
+| 查全家東北角門市在配送計畫中實際怎麼送 | [poc/2_a_group_rebuild.ipynb](poc/2_a_group_rebuild.ipynb) 第 1 節 | **沒有一趟是專程配送**:瑞芳門市由晚班 LJ、OP 順路帶到,平溪由早班 SE 經過;貢寮不由瑞芳 DC 配送。實際每停一家東北角門市只多跑 3.8 km,PoC 假設的 8.8 km 是實際的 2.3 倍 |
 | 版本一:各品牌重新最佳化 | 同上第 6 節 | 減 38–48%,但求解器又讓各品牌繞東北角一大圈,只能當上限 |
 | **校準版:固定全家實際幹線,只把門市插進去(邊際里程法)** | 同上第 7 節 | 模型算出全家每店 3.4 km,與實際 3.8 km 相近,方法可信。邊際里程減 **8–43%**,路網總里程只減 **1–8%** |
 | 政策與替代燃料試算 | [1019進度報告.pdf](1019進度報告.pdf) 第 6–8 頁 | 共配每年省油錢 13–23 萬元,減碳價值只有 0.3–0.6 萬元 → **碳價不是共配的推力**,障礙在協調、信任與法規;HVO 技術可行但成本高 |
 
 **這一步的結論:** 共配效益集中在**沒有順路幹線的偏遠門市**(貢寮、雙溪 8 店的專程里程可減約一半);已經順路的瑞芳區門市,共配能省的很少。R1、R2 情境的差距來自「貢寮、雙溪由哪個物流中心配送」,這是下一步要查證的關鍵。
 
-### 之後:10/25 新增資料,尚未分析
+### 4. 助教補充資料:其他場站與車型表(10/25 收到,10/27 分析)
 
-| 檔案 | 內容 | 可能用途 |
+兩份新資料已補進 [data_exploration.ipynb](explore/data_exploration.ipynb) 第 8、9 節(欄位說明在 [column_dictionary.py](explore/column_dictionary.py) 的 `DICT["other_depots"]`、`DICT["vehicle_class"]`)。
+
+| 檔案 | 內容 | 發現 |
 |---|---|---|
-| `vehicle_class_by_V.csv` | V01–V23 的車型、噸數、品牌、排放期別、冷凍機型號、可否插電製冷、各任務趟數 | 補上先前「車型、噸數全缺」的限制;回答「冷藏設備怎麼驅動、能否用岸電」 |
-| `delivery_plan_other_depots/` | 高雄 YT、林口 LC 兩個場站的配送紀錄,含**全部任務類型**(瑞芳的 TMS 只有任務 12) | 跨場站比較;林口與瑞芳共用 11 輛車,`V##` 可直接串接 |
+| `delivery_plan_other_depots/` | 林口 LC(2024-01 ~ 2025-12)、高雄 YT(2024-01 ~ 2026-10)的配送紀錄,含**全部任務類型**(瑞芳的 TMS 只有任務 12) | ① **容量假設有依據了**:5t 車每趟大約 25 店到頂(林口晚班 99% 為 27 店、高雄 25 店),共配試作的「每趟上限 25 店」合理;30 店以上只有 9.5t 大車 V02 跑過。② **兩個場站都沒有東北角門市**,全家貢寮門市由哪裡配送仍然不知道。③ 林口與瑞芳共用 11 台車,但 9 台主要在瑞芳跑;CAN 期間只有 V13(3 天)、V14(2 天)跑過林口,算油耗時要排除。④ 高雄門市不在門市主檔,無法定位 |
+| `vehicle_class_by_V.csv` | V01–V23 的車型、噸數、排放期別、冷凍機型號、可否插電制冷、各任務趟數 | ① **有實測油耗的 7 輛車全是 5t 14 尺六期**,油耗基準 21.2 L/100km 只代表這個車型;五期 11 尺車與 9.5t 車沒有油耗資料。② 15 台可插電制冷,只有 V02、V10 不行(1026 報告方案 B 已採用)。③ 「趟數」欄只有配送計畫推算值的約 4–10 成,期間與定義不明,不要用 |
 
-`delivery_plan_other_depots.zip` 是同一份資料的壓縮檔。**這兩份資料不在 GitHub 上**(見 `.gitignore`),助教已上傳到課程網站,請從課程網站下載。
+**這兩份資料不在 GitHub 上**(見 `.gitignore`),助教已上傳到課程網站,請從課程網站下載。
+
+### 5. 放大到全臺:回應老師「比較基準要一致」(10/27)
+
+| 做了什麼 | 檔案 | 結果 |
+|---|---|---|
+| 用 OpenStreetMap 抓全臺四大超商門市,以經濟部商業署分公司登記資料核對各鄉鎮家數 | [poc/3_remote_scan.ipynb](poc/3_remote_scan.ipynb) 第 1 節 | OSM 四品牌 11,860 家(約全國 83%),偏遠鄉鎮涵蓋率約 98% |
+| 以「離第 5 近的同品牌門市 ≥ 5 km,且 2 km 內有他牌」找出像貢寮、雙溪的門市 | 同上第 2–3 節 | 全臺 **717 家**(6%)、153 個鄉鎮;OK 有 23% 門市屬於這類,7-Eleven 只有 3% |
+| 用東北角校準版的每店效益放大,三方案放到同一基準 | 同上第 4–5 節 | 共配約 830 公噸/年(64–1,250),和改插電(470–730)同一量級;改加 HVO 約 12,000(示意) |
 
 ---
 
@@ -89,14 +101,17 @@
 | 各品牌都**專程**進入東北角(PoC A 組) | 全家全部是順路配送 | PoC 的 −51% 只能當上限,改用校準版 8–43% |
 | GPS「燃料」可以算油耗 | 是油箱油位 %,行駛晃動誤差大(助教確認) | 油耗一律用車載 CAN |
 | 任務代碼有官方定義 | 助教說是後端 API 回傳值,沒有定義 | 任務用途在報告中要寫明是推測 |
+| 每趟上限可以設到 30 店 | 三個場站的 5t 車每趟大約 25 店到頂,30 店以上只有 9.5t 大車做得到 | 校準版的 Q30 情境要標成「需改派大車」 |
 
 ## 目前還沒解決的問題
 
-1. 貢寮、雙溪門市(全家與他牌)實際由哪個物流中心配送?決定採 R1 或 R2 情境。
+1. 貢寮、雙溪門市(全家與他牌)實際由哪個物流中心配送?決定採 R1 或 R2 情境。林口、高雄的資料都沒有這些門市,答案在第三個物流中心。
 2. 各店每日被送幾次?用來把每輪減碳量年化。
-3. 沒有貨量(箱數、籠車數),容量只能用「每趟最多停靠店數」代替。
+3. 沒有貨量(箱數、籠車數),容量只能用「每趟最多停靠店數」代替;三個場站的實際停靠數支持「5t 車約 25 店」的上限。
 4. 時間窗與溫層相容性還沒納入共配模型。
-5. 冷藏設備的驅動方式與 V09 夜間 DC 怠速的原因(可先查 `vehicle_class_by_V.csv` 的冷凍機型號與 `插電制冷` 欄)。
+5. V09 夜間 DC 怠速的原因:車型表顯示 V09 **可以插電制冷**,所以不是設備做不到,原因仍需向業者確認。
+6. 油耗基準只代表 5t 14 尺六期車;五期 11 尺車與 9.5t 車的排放要用外部係數或假設。
+7. 1026 報告方案 A 的「可省 38–48%」是版本一(上限);校準版是 8–43%,依偏遠門市由誰配送而定。
 
 ---
 
@@ -107,26 +122,30 @@
 | 路徑 | 內容 |
 |---|---|
 | **1. explore/:課程資料探索與怠速分析** | |
-| `data_exploration.ipynb` | 資料盤點、欄位說明、七步驟探索、助教 Q&A 驗證、資料品質總表 |
+| `data_exploration.ipynb` | 資料盤點、欄位說明、七步驟探索、助教 Q&A 驗證、資料品質總表;第 8、9 節為其他場站與車型表 |
 | `column_dictionary.py` | 中文欄位說明(`DICT`)、助教 Q&A(`TA_QA`)、代碼對照 |
 | `profile_data.py` → `profile/` | 全資料剖析,產生 `profile/results.pkl` 供 notebook 使用 |
 | `idle_prototype.py`、`idle_fleet.py` → `idle/` | 怠速分析;`idle/idle_fleet.html` 是 7 車總報告,`idle_V##.html` 是單車明細 |
 | **2. research/:外部資料集與文獻** | |
-| `external_data_sources.md` | 外部公開資料調查(結論:沒有可用的逐筆冷鏈資料) |
-| `kaggle_check.py`、`kaggle_candidates.json`、`hf_*.json` | Kaggle、Hugging Face 資料集的搜尋腳本與候選清單 |
-| `joint_delivery_sources.md` | 共同配送文獻與實證,標明一手、二手、未驗證 |
-| `poc_proposal_outline.md`、`poc_draft_review.md`、`poc_evidence_gaps.md` | 提案大綱、初稿審閱、補充證據 |
+| `1_external_data_sources.md` | 外部公開資料調查(結論:沒有可用的逐筆冷鏈資料) |
+| `2_joint_delivery_sources.md` | 共同配送文獻與實證,標明一手、二手、未驗證 |
+| `3_proposal_notes.md` | 寫 10/13 提案時的三份筆記合併:第一部分大綱與證據對照、第二部分初稿審閱、第三部分補充證據 |
+| `4_last_mile_routing_paper.md` | 插入法論文(Rashidi 等,2025)的查核筆記,以及 Amazon 最後一哩資料集能否取得 |
+| `papers/` | 論文全文 PDF(`Rashidi2025_last-mile_insertion_heuristic.pdf`) |
+| `dataset_search/` | Kaggle、Hugging Face 資料集的搜尋腳本(`kaggle_check.py`)與候選清單 JSON,`1_external_data_sources.md` 的原始紀錄 |
 | **3. poc/:共同配送試作** | |
-| `joint_delivery_poc.ipynb` | 第一版試作(專程假設,−51%) |
-| `a_group_rebuild.ipynb` | A 組重建與校準版(最新結果) |
-| `ne_stores_*.csv` | 東北角四品牌門市清單(`verified` 為最終版) |
-| `osm_*.json`、`osrm_*.json`、`rebuild_*.json` | OpenStreetMap、OSRM 查詢與求解結果的快取;重跑 notebook 不會重新連網,刪掉才會重查 |
-| `a.png`、`b.png` | 第一版試作的 A 組、B 組路線圖 |
+| `1_joint_delivery_poc.ipynb` | 第一版試作(專程假設,−51%) |
+| `2_a_group_rebuild.ipynb` | A 組重建與校準版(最新結果) |
+| `3_remote_scan.ipynb` | 全臺有多少「像東北角」的偏遠門市,並把三個減碳方案放大到全臺同一基準比較(10/27) |
+| `data/` | 東北角四品牌門市清單 `ne_stores_*.csv`:`osm` 是 OSM 原始抓取、`candidates` 是自動產生的候選、**`verified` 是逐店核對後的最終版**(模型只用這份) |
+| `cache/` | OpenStreetMap、OSRM 查詢與求解結果的快取(`osm_*`、`osrm_*`、`rebuild_*`,以及全臺門市 `osm_convenience_tw.json`);重跑 notebook 不會重新連網,刪掉才會重查 |
+| `figures/` | 投影片用圖:`poc_v1_A_routes.png`、`poc_v1_B_routes.png`(第一版 A、B 組路線)、`calibrated_routes_3panel.png`(校準版三格直排,`2_a_group_rebuild.ipynb` 第 7.3 節產生)、`全家實際怎麼送東北角.png` |
 | **根目錄** | |
-| `1005進度報告.pdf`、`1019進度報告.pdf` | 兩次進度報告投影片 |
-| `綠色工程專案研究POC Proposal.md` | POC 提案正文(`poc/` 裡有一份較早的副本,以根目錄這份為準) |
+| `1005進度報告.pdf`、`1019進度報告.pdf`、`1026進度報告.pdf` | 三次進度報告投影片 |
+| `綠色工程專案研究POC Proposal.md` | POC 提案正文 |
 | `綠色工程專案研究POC Proposal-1.docx` | 助教對各資料夾欄位問題的回答 |
-| `vehicle_class_by_V.csv`、`delivery_plan_other_depots/` | 10/25 新增資料,尚未分析(不在 GitHub 上,助教已上傳到課程網站) |
+| `vehicle_class_by_V.csv`、`delivery_plan_other_depots/` | 助教 10/25 補充的車型表與林口、高雄配送紀錄,分析見 `explore/data_exploration.ipynb` 第 8、9 節(不在 GitHub 上,助教已上傳到課程網站) |
+| `全國5大超商資料集.csv` | 經濟部商業署 5 大超商分公司登記資料(只有地址;7-Eleven、萊爾富接近完整,全家、OK 缺加盟店),`3_remote_scan.ipynb` 用來核對 OSM 漏標 |
 | `鄉(鎮、市、區)界線1140318/` | 內政部鄉鎮市區界線圖資,畫地圖與篩選東北角四區用 |
 
 ---

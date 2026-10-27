@@ -1,7 +1,7 @@
 """抓 Kaggle 候選資料集的公開說明(不需登入),標出合成/模擬資料。
 
-Run:  python research/kaggle_check.py
-Writes research/kaggle_candidates.json
+Run:  python research/dataset_search/kaggle_check.py
+Writes research/dataset_search/kaggle_candidates.json
 """
 import json
 import os
