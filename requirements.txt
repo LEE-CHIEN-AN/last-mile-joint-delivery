@@ -1,0 +1,14 @@
+# Python 3.12; versions used in the existing project environment.
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.0
+plotly==5.22.0
+opencc-python-reimplemented==0.1.7
+pyvrp==0.14.0
+geopandas==0.14.4
+shapely==2.0.4
+scipy==1.13.1
+openpyxl==3.1.2
+jupyterlab==4.2.2
+ipykernel==6.29.4
+nbformat==5.10.4

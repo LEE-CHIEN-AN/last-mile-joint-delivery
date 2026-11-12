@@ -1,16 +1,25 @@
-# 課程原始資料(組員各自從課程下載,不進版控)
-delivery_plan/
-gps_traces/
-vehicle_can_telematics/
-tms_delivery_records/
-store_master/
+# 課程及助教提供的原始資料；組員各自放入，不上傳。
+/data/raw/
 
-# 另外取得的資料(不外流)
-delivery_plan_other_depots/
-delivery_plan_other_depots.zip
-vehicle_class_by_V.csv
+# 相容舊下載／解壓位置，避免不小心提交課程資料。
+/delivery_plan/
+/delivery_plan_other_depots/
+/delivery_plan_other_depots.zip
+/gps_traces/
+/vehicle_can_telematics/
+/tms_delivery_records/
+/store_master/
+/vehicle_class_by_V.csv
 
-# 系統與暫存檔
-desktop.ini
+# 本機環境、系統及工作暫存。
+.venv/
 __pycache__/
+*.pyc
 .ipynb_checkpoints/
+desktop.ini
+Thumbs.db
+~$*
+/outputs/legacy_workspace/
+
+# 已歸位的回饋 PDF；原檔因開啟中的檔案鎖暫留本機。
+/1109_第一組進度報告_期中影片回饋.pdf
