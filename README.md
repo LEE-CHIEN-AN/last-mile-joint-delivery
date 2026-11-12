@@ -12,14 +12,14 @@
 
 | 你要做什麼 | 從這裡開始 |
 |---|---|
-| 看分工、認領／更新進度 | [工作計畫](docs/planning/final_work_plan.md)、[Excel 任務追蹤表](docs/planning/final_task_tracker.xlsx) |
+| 看分工、認領／更新進度 | [協作入口](docs/planning/README.md)、[工作計畫](docs/planning/final_work_plan.md)、[Notion 安排](docs/planning/notion_collaboration.md)；Excel 為離線參考及試算 |
 | 了解模型怎麼算、接手路線分析 | [02 校準版](notebooks/02_calibrated_joint_delivery.ipynb)，再看 [分析執行說明](notebooks/README.md) |
 | 檢查資料、油耗及全臺推估 | [01 資料盤點](notebooks/01_data_overview.ipynb) → [03 候選門市篩選](notebooks/03_candidate_store_screening.ipynb) → [04 三場站路線驗證](notebooks/04_remote_route_validation.ipynb) |
 | 找實務、合作與文獻證據 | [共同配送來源整理](docs/research/joint_delivery_sources.md)、[文獻方法筆記](docs/research/practical_routing_paper.md) |
 | 找簡報、問答或舊提案 | [文件導覽](docs/README.md) |
 | 了解舊成果怎麼一路修正 | [研究歷程](docs/archive/project_history.md) |
 
-麗賢可直接使用 Excel、Word 或文件整理實務與成本證據；彥谷協助將確認後的內容納入專案。不用先學 Git 或執行 notebook 才能參與。
+每人每週以 2–4 小時與 AI 協作產出，各人自檢自己的內容；週一 14:00 前繳簡報、14:30–15:00 與教授助教開會。日常進度在 [課程 Notion](https://app.notion.com/p/3ee3ba51f1c380e4b1e7e5b1ebabe2e0?source=copy_link) 維護。麗賢可直接貼文字、來源與表格；彥谷協助檔案及格式整合，不另設組員交叉查核。
 
 ## 資料夾怎麼分
 
@@ -91,7 +91,7 @@ python scripts/profile_data.py
 
 1. 新增分析放 `notebooks/`，例如 `05_service_constraints.ipynb`；可重用函式放 `src/`，獨立批次工作放 `scripts/`。
 2. 原始資料留在 `data/raw/`；確認後的輸入表放 `data/processed/`，在 [資料說明](data/README.md) 記錄來源、日期、整理方法及限制。
-3. 圖放 `outputs/figures/`，文件放 `docs/` 對應子資料夾；每個結論附分析檔、情境、單位與查核人。
-4. 完成任務時，更新 Excel 任務追蹤表、對應說明及 AI 使用紀錄。請勿只改圖上的數字，應從來源分析更新。
+3. 圖放 `outputs/figures/`，文件放 `docs/` 對應子資料夾；每個結論附分析檔、情境、單位、負責人與本人自檢紀錄。
+4. 完成任務時，在 Notion 更新狀態、成果連結及本人的 AI 使用紀錄；Excel 不重複手動同步狀態。請勿只改圖上的數字，應從來源分析更新。
 
 路徑由 `src/project_paths.py` 統一定位。Notebook 可從專案根目錄或其子資料夾執行，避免寫死個人電腦的絕對路徑。原始課程資料由 `.gitignore` 排除；提交前仍須檢查文件與輸出是否含個資。
