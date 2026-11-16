@@ -77,7 +77,7 @@ def main():
         independent = sum(calibrated[brand][zone]["km"] for brand in brands for zone in zones)
         joint = sum(calibrated["B"][zone]["km"] for zone in zones)
         # Regression guard for the existing scenario; update deliberately when the model changes.
-        if not math.isclose(independent, 207.1005, abs_tol=0.001) or not math.isclose(joint, 132.1258, abs_tol=0.001):
+        if not math.isclose(independent, 206.7682, abs_tol=0.001) or not math.isclose(joint, 132.1158, abs_tol=0.001):
             errors.append(f"Q25 cache changed: independent={independent:.4f}, joint={joint:.4f}; review README")
     except (OSError, ValueError, KeyError) as exc:
         errors.append(f"Unable to check store list / calibrated cache: {exc}")

@@ -9,7 +9,6 @@
 | 寫本週進度與記錄師生回饋 | [每週模板](weekly_update_template.md) |
 | 初次建立 Notion 任務表 | [任務 CSV](notion_tasks.csv)，15 項任務；不是已同步的線上資料庫 |
 | 看各週預算與三人交付物 | [每週工時 CSV](weekly_workload.csv)，另列例會／發表時間 |
-| 離線參考、能源費門檻試算 | [Excel](final_task_tracker.xlsx)，9 個工作表；日常任務狀態只維護 Notion |
 
 協作頁面：[課程 Notion](https://app.notion.com/p/3ee3ba51f1c380e4b1e7e5b1ebabe2e0?source=copy_link)。本次無法讀取頁面內容，以上檔案是可套用到既有頁面的本地規劃與模板，尚未直接建立或修改線上頁面。
 

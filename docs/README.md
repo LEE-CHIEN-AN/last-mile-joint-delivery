@@ -4,7 +4,7 @@
 |---|---|
 | 分工、週一報告節奏、交付條件 | [協作入口](planning/README.md)、[期末工作計畫](planning/final_work_plan.md) |
 | Notion 任務、週報、師生回饋及 AI 紀錄 | [Notion 安排](planning/notion_collaboration.md)、[每週模板](planning/weekly_update_template.md) |
-| 離線任務快照、資料需求與成本門檻試算 | [Excel 參考表](planning/final_task_tracker.xlsx)；日常任務狀態只維護 Notion |
+| 任務與資料需求 | [期末工作計畫](planning/final_work_plan.md)、[Notion 安排](planning/notion_collaboration.md)；日常任務狀態只維護 Notion |
 | 期中問答、教師與同學的修正要求 | [問答與回饋整理](feedback/midterm_qa.md)、[11/09 回饋 PDF](feedback/2026-11-09_video_feedback.pdf) |
 | 共同配送實證及方法依據 | [共同配送來源](research/joint_delivery_sources.md)、[插入法論文筆記](research/practical_routing_paper.md)、[論文 PDF](references/papers/rashidi_2025_practical_routing.pdf) |
 | 找過哪些外部資料 | [外部資料來源](research/external_data_sources.md) |

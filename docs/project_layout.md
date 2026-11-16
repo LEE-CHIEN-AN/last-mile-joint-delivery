@@ -27,7 +27,7 @@
 | `research/3_proposal_notes.md` | `docs/archive/proposal_notes.md` |
 | `research/5_midterm_qa_baseline.md` | `docs/feedback/midterm_qa.md` |
 | `research/papers/` | `docs/references/papers/` |
-| `planning/期末分工與時程.md`、`期末任務追蹤.xlsx` | `docs/planning/final_work_plan.md`、`final_task_tracker.xlsx` |
+| `planning/期末分工與時程.md` | `docs/planning/final_work_plan.md`；原任務追蹤 Excel 已不再使用 |
 | 根目錄進度／期中簡報 PDF | `docs/presentations/YYYY-MM-DD_主題.pdf` |
 | 根目錄回饋 PDF | `docs/feedback/2026-11-09_video_feedback.pdf` |
 | 根目錄 `綠色工程專案研究POC Proposal.md` | `docs/proposals/initial_poc_proposal.md` |
